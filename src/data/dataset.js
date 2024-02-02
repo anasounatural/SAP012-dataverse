@@ -1,378 +1,315 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "name": "Tóquio",
+    "id": "Toquio",
+    "shortDescription": "Cidade segura.Está na nossa indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Tóquio, cidade que  encanta mulheres por sua fusão única de tradição e modernidade.  A cultura japonesa valoriza a cortesia e a segurança, proporcionando um ambiente acolhedor. A culinária diversificada, desde sushi refinado até doces elaborados, cativa paladares. A capital também exibe jardins serenos, templos históricos e festivais vibrantes, proporcionando uma rica imersão cultural. A eficiência do transporte público e a baixa taxa de criminalidade tornam Tóquio um destino seguro e fácil de explorar, enriquecendo a experiência de viagem para mulheres.",
+    "imageUrl": "https://example.com/toquio.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "averageCost": "R$300,00",
+      "mainLanguages": "Japonês",
+      "safetyLevel": 5,
+      "choosenContinent": "Ásia"
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "name": "Estocolmo",
+    "id": "Estocolmo",
+    "shortDescription": "Capital nórdica com paisagens encantadoras. Está na indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Estocolmo oferece segurança e uma atmosfera tranquila. Descubra os arquipélagos, museus e a cultura escandinava. Estocolmo, a capital sueca, cativa mulheres por sua atmosfera segura e inclusiva. Ruas vibrantes e arquitetura histórica proporcionam um cenário encantador. A cidade abraça a igualdade de gênero, refletida em sua cultura progressista e oportunidades educacionais e profissionais. Os parques exuberantes oferecem relaxamento, enquanto lojas e cafés elegantes tornam o cenário perfeito para explorar. A cena cultural diversificada, com museus e eventos, cativa mentes curiosas. Estocolmo é um refúgio acolhedor, onde mulheres podem se sentir empoderadas, inspiradas e seguras enquanto exploram essa joia nórdica.",
+    "imageUrl": "https://example.com/estocolmo.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "averageCost": "R$400,00",
+      "mainLanguages": "Sueco, Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Europa"
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "name": "Melbourne",
+    "id": "Melbourne",
+    "shortDescription": "Cidade cultural com estilo descontraído. É uma indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Melbourne é conhecida por sua arte de rua, cafés e eventos culturais. Com baixa criminalidade, é um destino acolhedor para mulheres viajantes. Compras e gastronomia para todos os gostos. A arte de rua e os eventos culturais destacam a criatividade local. Os parques bem cuidados e as praias próximas proporcionam momentos relaxantes. Melbourne é conhecida pela segurança e aceitação, criando um ambiente acolhedor. O sistema de transporte eficiente e a oferta de atividades culturais e esportivas tornam Melbourne um destino cativante e enriquecedor para mulheres viajantes.",
+    "imageUrl": "https://example.com/melbourne.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "averageCost": "R$350,00",
+      "mainLanguages": "Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Oceania"
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "name": "Montreal",
+    "id": "Montreal",
+    "shortDescription": "Bilíngue com charme europeu. Está na nossa indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Combina francês e inglês com arquitetura encantadora. Festivais, gastronomia e bairros acolhedores com segurança. Uma metrópole canadense, encanta mulheres com sua atmosfera cosmopolita e diversidade cultural. Ruas repletas de arte urbana e arquitetura histórica proporcionam um ambiente cativante. A cidade promove a igualdade de gênero, refletida em sua sociedade progressista e oportunidades inclusivas. Parques pitorescos e cafés charmosos oferecem espaços relaxantes para explorar. A rica cena artística e eventos culturais proporcionam experiências enriquecedoras. Montreal é um destino que celebra a individualidade, oferecendo um ambiente acolhedor e inspirador para mulheres que desejam descobrir suas paixões em meio a essa cidade dinâmica.",
+    "imageUrl": "https://example.com/montreal.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "averageCost": "R$320,00",
+      "mainLanguages": "Francês Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "América do Norte"
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "name": "Singapura",
+    "id": "Singapura",
+    "shortDescription": "Segura com diversidade cultural. Está na nossa indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Uma cidade-estado cosmopolita, conhecida por sua segurança, jardins deslumbrantes e culinária diversificada. Singapura, uma cidade-estado dinâmica, atrai mulheres com sua segurança exemplar e ambiente multicultural. As ruas impecáveis e a arquitetura futurista oferecem um cenário fascinante. A sociedade singapurense promove a igualdade de gênero, refletida em suas leis progressistas e oportunidades para mulheres em diversas áreas. Parques exuberantes e áreas de lazer proporcionam momentos relaxantes, enquanto shoppings e restaurantes de classe mundial oferecem opções de entretenimento e culinária. A fusão de tradição e modernidade torna Singapura um destino empolgante e inclusivo, proporcionando experiências enriquecedoras para mulheres explorarem e prosperarem.",
+    "imageUrl": "https://example.com/singapura.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "averageCost": "R$450,00",
+      "mainLanguages": "Malaio, Inglês, Mandarim, Tâmil",
+      "safetyLevel": 5,
+      "choosenContinent": "Ásia"
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "name": "Auckland",
+    "id": "Auckland",
+    "shortDescription": "Cidade portuária com vistas panorâmicas. Indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Auckland oferece segurança, praias deslumbrantes e uma mistura única de culturas polinésias e europeias. É um destino envolvente para mulheres. Sua beleza natural, representada por praias deslumbrantes e colinas verdejantes, cria um ambiente cativante. A sociedade kiwi, conhecida por sua igualdade de gênero, oferece oportunidades diversas. A cidade vibrante mescla modernidade e cultura maori, proporcionando uma experiência rica e inclusiva. Parques urbanos e trilhas oferecem espaços para relaxamento e aventura. Com uma cena artística florescente e uma culinária diversificada, Auckland é um lugar que celebra a individualidade, oferecendo um ambiente acolhedor e inspirador para mulheres explorarem e prosperarem.",
+    "imageUrl": "https://example.com/auckland.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "averageCost": "R$380,00",
+      "mainLanguages": "Inglês, Maori",
+      "safetyLevel": 4,
+      "choosenContinent": "Oceania"
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "name": "Copenhague",
+    "id": "Copenhague",
+    "shortDescription": "Capital amigável com arquitetura encantadora. Está na nossa indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer.",
+    "description": "Explore palácios, canais e a vida cultural. Capital dinamarquesa, é um destino encantador para mulheres. Com sua atmosfera amigável e ruas pitorescas, a cidade exala um charme único. A Dinamarca é conhecida por sua abordagem progressista à igualdade de gênero, refletida na sociedade e nas oportunidades oferecidas. A arquitetura elegante e parques bem cuidados proporcionam uma sensação de tranquilidade. Copenhague é também um epicentro cultural, com museus, galerias e eventos, enquanto cafés acolhedores promovem momentos de relaxamento. Com uma qualidade de vida excepcional e uma comunidade acolhedora, Copenhague é um destino inspirador para mulheres explorarem e se sentirem empoderadas.",
+    "imageUrl": "https://example.com/copenhague.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "averageCost": "R$410,00",
+      "mainLanguages": "Dinamarquês, Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Europa"
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "name": "Canberra",
+    "id": "Canberra",
+    "shortDescription": "Capital tranquila com museus e parques. Ótima mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Canberra oferece uma experiência segura, com museus, parques e uma atmosfera relaxante. Ideal para mulheres viajantes explorarem. Sua atmosfera tranquila e planejamento urbano eficiente oferecem um ambiente seguro e acolhedor. A Austrália é reconhecida por suas políticas de igualdade de gênero, proporcionando oportunidades diversas. A cidade é cercada por paisagens deslumbrantes e parques nacionais, proporcionando espaços para reflexão e lazer. A cena cultural vibrante, museus e eventos enriquecem a experiência. Com uma comunidade diversificada e uma qualidade de vida elevada, Canberra é um lugar que celebra a diversidade, oferecendo um ambiente propício para mulheres explorarem, crescerem e se sentirem empoderadas. ",
+    "imageUrl": "https://example.com/canberra.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "averageCost": "R$340,00",
+      "mainLanguages": "Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Oceania"
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "name": "Seul",
+    "id": "Seul",
+    "shortDescription": "Metrópole moderna com tradições antigas.Está na nossa indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Seul combina tecnologia de ponta com tradições antigas. É um destino seguro com uma rica herança cultural e gastronomia única.Seul, a capital sul-coreana, é um destino cativante para mulheres. Sua mistura única de tradição e modernidade cria uma atmosfera fascinante. A Coreia do Sul tem avançado em direção à igualdade de gênero, oferecendo oportunidades diversas. As ruas movimentadas, repletas de tecnologia e cultura, proporcionam uma experiência dinâmica. Os palácios históricos e templos antigos coexistem harmoniosamente com arranha-céus modernos. Seul é uma cidade onde tradição e inovação se entrelaçam, criando um ambiente inspirador para mulheres explorarem e prosperarem.",
+    "imageUrl": "https://example.com/seul.jpg",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "averageCost": "R$380,00",
+      "mainLanguages": "Coreano, Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Ásia"
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "name": "Munique",
+    "id": "Munique",
+    "shortDescription": "Cidade alemã com arquitetura clássica.Está na nossa indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Munique oferece segurança, cervejarias tradicionais e arquitetura clássica. Explore museus, parques e a cultura bávara. Munique, na Alemanha, é um destino encantador para mulheres. A cidade combina tradição e modernidade, proporcionando uma atmosfera única. A Alemanha tem uma forte tradição de igualdade de gênero, refletida na sociedade e nas oportunidades oferecidas. Munique é conhecida por sua arquitetura clássica, parques exuberantes e uma vibrante cena cultural. Os mercados tradicionais e cafés aconchegantes adicionam um toque acolhedor. Com festivais animados e uma qualidade de vida elevada, Munique oferece um ambiente inspirador para mulheres explorarem, apreciarem a diversidade e se sentirem empoderadas.",
+    "imageUrl": "https://example.com/munique.jpg",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "averageCost": "R$380,00",
+      "mainLanguages": "Alemão, Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Europa"
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "name": "Wellington",
+    "id": "Wellington",
+    "shortDescription": "Capital cercada por colinas e costa. Ótima indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Segura e encantadora, com vistas deslumbrantes, cafés únicos e uma cena artística vibrante. É um destino cativante para mulheres. Aninhada entre colinas e o oceano, a cidade oferece uma atmosfera acolhedora e vibrante. A Nova Zelândia tem uma abordagem progressista em relação à igualdade de gênero, proporcionando oportunidades diversas. Wellington é conhecida por sua cena artística efervescente, cafés charmosos e eventos culturais. Com parques urbanos e trilhas deslumbrantes, a cidade oferece espaços para relaxamento e aventura. Wellington é um lugar onde a individualidade é celebrada, proporcionando um ambiente inspirador para mulheres explorarem, se desenvolverem e se sentirem empoderadas.",
+    "imageUrl": "https://example.com/wellington.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "averageCost": "R$360,00",
+      "mainLanguages": "Inglês, Maori",
+      "safetyLevel": 4,
+      "choosenContinent": "Oceania"
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "name": "Oslo",
+    "id": "Oslo",
+    "shortDescription": "Capital escandinava com qualidade de vida. Excelente indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Oslo é uma cidade segura com parques, museus e uma qualidade de vida excepcional. Emoldurada por fiordes e cercada por uma natureza deslumbrante, a cidade oferece uma atmosfera serena e acolhedora. A Noruega é reconhecida por sua abordagem progressista em relação à igualdade de gênero, proporcionando oportunidades amplas. A arquitetura moderna e os parques bem cuidados proporcionam uma estética urbana única. Oslo é também um centro cultural vibrante, com museus, galerias e uma cena musical diversificada. Com uma qualidade de vida elevada e uma comunidade acolhedora, Oslo é um destino que celebra a diversidade.",
+    "imageUrl": "https://example.com/oslo.jpg",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "averageCost": "R$430,00",
+      "mainLanguages": "Norueguês, Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Europa"
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "name": "Quebec",
+    "id": "Quebec",
+    "shortDescription": "Cidade histórica com arquitetura europeia. Está na nossa indicação de melhores destinos para mulheres viajarem com segurança e lazer garantidos.",
+    "description": "Quebec oferece segurança, história e arquitetura encantadora. Explore as ruas de paralelepípedos e a cultura francófona. É um destino charmoso e culturalmente enriquecedor para mulheres. Com suas ruas de paralelepípedos, arquitetura europeia e muralhas históricas, a cidade cria uma atmosfera única. O Canadá tem um compromisso com a igualdade de gênero, refletido em sua sociedade diversificada e oportunidades inclusivas. A cultura francófona, os festivais animados e os mercados encantadores proporcionam uma experiência envolvente. Com uma paisagem deslumbrante ao redor, Quebec oferece um ambiente inspirador para mulheres explorarem, apreciarem a diversidade e se sentirem empoderadas em meio a essa cidade encantadora.",
+    "imageUrl": "https://example.com/quebec.jpg",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "averageCost": "R$340,00",
+      "mainLanguages": "Francês, Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "América do Norte"
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "name": "Sydney",
+    "id": "Sydney",
+    "shortDescription": "Metrópole com praias icônicas. Linda indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Sydney é segura e diversificada. Ideal para mulheres viajantes. Sydney, na Austrália, é um destino eletrizante e acolhedor para mulheres. Com suas icônicas praias, como Bondi e Manly, e o espetáculo da Sydney Opera House, a cidade oferece uma mistura única de natureza e modernidade. A Austrália tem se destacado por promover igualdade de gênero, proporcionando diversas oportunidades. Sydney possui uma vibrante cena cultural, uma culinária diversificada e uma vida noturna animada. Com parques urbanos, como o Royal Botanic Garden, e uma atmosfera descontraída.",
+    "imageUrl": "https://example.com/sydney.jpg",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "averageCost": "R$370,00",
+      "mainLanguages": "Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Oceania"
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "name": "Vancouver",
+    "id": "Vancouver",
+    "shortDescription": "Cidade costeira com montanhas imponentes. Ótima indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Vancouver oferece segurança, paisagens deslumbrantes e uma mistura cosmopolita. Explore parques, gastronomia e atividades ao ar livre. Vancouver, no Canadá, é um destino inspirador para mulheres. Com sua combinação única de paisagens deslumbrantes e uma atmosfera urbana cosmopolita, a cidade oferece uma experiência cativante. O Canadá é comprometido com a igualdade de gênero, proporcionando oportunidades diversas. Vancouver destaca-se por seus parques exuberantes, como Stanley Park, e pela proximidade com o oceano. A cena artística diversificada, os mercados locais e a culinária internacional enriquecem a experiência cultural. Com uma comunidade acolhedora e um equilíbrio entre natureza e modernidade.",
+    "imageUrl": "https://example.com/vancouver.jpg",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "averageCost": "R$390,00",
+      "mainLanguages": "Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "América do Norte"
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "name": "Kioto",
+    "id": "Kioto",
+    "shortDescription": "Antiga capital japonesa com templos magníficos. Excelente indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Kioto é uma cidade segura com uma rica herança cultural, templos magníficos e tradições preservadas. Ideal para mulheres viajantes. Kioto, no Japão, é um destino fascinante e sereno para mulheres. Com suas tradições preservadas, templos magníficos e jardins meticulosamente cuidados, a cidade oferece uma experiência única. O Japão tem avançado em direção à igualdade de gênero, proporcionando oportunidades diversas. Os quimonos tradicionais, festivais coloridos e a culinária refinada criam uma atmosfera encantadora. Com uma paz que permeia seus santuários e a beleza estonteante das cerejeiras em flor, Kioto convida as mulheres a explorarem de tudo.",
+    "imageUrl": "https://example.com/kioto.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "averageCost": "R$320,00",
+      "mainLanguages": "Japonês",
+      "safetyLevel": 5,
+      "choosenContinent": "Ásia"
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "name": "Reykjavik",
+    "id": "Reykjavik",
+    "shortDescription": "Capital islandesa com paisagens únicas. Boa indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Reykjavik é uma cidade segura com paisagens surreais, fontes termais e uma atmosfera acolhedora. Atmosfera acolhedora e uma paisagem surreal, a cidade oferece uma experiência marcante. A Islândia é conhecida por sua abordagem progressista à igualdade de gênero, proporcionando oportunidades diversas. Reykjavik destaca-se por sua arquitetura colorida, fontes termais e uma vibrante cena cultural. A proximidade com a natureza, como as auroras boreais e as paisagens geotérmicas, adiciona um toque mágico. Com uma população amigável e uma cultura rica em tradições, Reykjavik é um lugar inspirador para mulheres explorarem, apreciarem a singularidade e se sentirem empoderadas.",
+    "imageUrl": "https://example.com/reykjavik.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "averageCost": "R$420,00",
+      "mainLanguages": "Islandês, Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Europa"
+    }
+  },
+
+  {
+    "name": "Barcelona",
+    "id": "Barcelona",
+    "shortDescription": "Metropolis catalã com arquitetura única. Exclente indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Barcelona oferece segurança, arquitetura modernista e praias animadas. Com sua arquitetura única, como a Sagrada Família e a influência artística de Gaudí, a cidade oferece uma experiência estética rica. A Espanha tem avançado em direção à igualdade de gênero, proporcionando oportunidades diversas. Barcelona é conhecida por suas praias animadas, vida noturna vibrante e uma cena gastronômica deliciosa. A cultura catalã, manifestada em festivais coloridos e mercados movimentados, cria uma atmosfera envolvente. Com uma combinação de tradição e modernidade, Barcelona convida as mulheres a explorarem, celebrarem a diversidade e se sentirem empoderadas nesta cidade vibrante.",
+    "imageUrl": "https://example.com/barcelona.jpg",
+    "facts": {
+      "averageCost": "R$380,00",
+      "mainLanguages": "Catalão, Espanhol",
+      "safetyLevel": 4,
+      "choosenContinent": "Europa"
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "name": "Santiago",
+    "id": "Santiago",
+    "shortDescription": "Segura com diversidade cultural. Está na nossa indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Santiago é uma cidade-estado cosmopolita, conhecida por sua segurança, jardins deslumbrantes e culinária diversificada. Santiago, a capital do Santiago, é um destino dinâmico e inspirador para mulheres. Com uma mistura de paisagens espetaculares, como os Andes, e uma atmosfera urbana movimentada, a cidade oferece uma experiência diversificada. O Santiago tem avançado em direção à igualdade de gênero, proporcionando oportunidades diversas. A rica herança histórica e a gastronomia deliciosa adicionam camadas à experiência. Com uma população acolhedora e uma mistura única de tradição e inovação, Santiago é um lugar inspirador para mulheres explorarem, apreciarem a diversidade e se sentirem empoderadas.",
+    "imageUrl": "https://example.com/singapura.jpg",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "averageCost": "R$450,00",
+      "mainLanguages": "Espanhol",
+      "safetyLevel": 5,
+      "choosenContinent": "América do Sul"
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "name": "Portland",
+    "id": "Portland",
+    "shortDescription": "Cidade verde com cena artística vibrante. Ótima indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Portland é uma cidade segura com parques verdes, uma cena artística vibrante e uma atmosfera descontraída. Ideal para mulheres viajantes.Portland atrai mulheres com sua atmosfera peculiar e progressista. Com uma cena de compras única em bairros como Pearl District, oferece opções sustentáveis e artesanais. Os mercados de alimentos orgânicos e os restaurantes inovadores refletem a ênfase na culinária local e saudável. A cidade é conhecida por sua comunidade artística vibrante e eventos culturais, proporcionando experiências enriquecedoras. A aceitação da diversidade e o foco na sustentabilidade criam um ambiente inclusivo. Cercada por paisagens deslumbrantes e trilhas ao ar livre.",
+    "imageUrl": "https://example.com/portland.jpg",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "averageCost": "R$350,00",
+      "mainLanguages": "Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "América do Norte"
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "name": "Lisboa",
+    "id": "Lisboa",
+    "shortDescription": "Capital portuguesa com charme histórico. Linda indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Lisboa oferece segurança, ruas de paralelepípedos, arquitetura antiga e culinária deliciosa. Descubra a história e cultura portuguesa em cada esquina. Cativa mulheres viajantes com sua atmosfera acolhedora e segura. A cidade histórica oferece uma riqueza cultural fascinante, com bairros encantadores, como Alfama e Bairro Alto, repletos de charme e autenticidade. A gastronomia deliciosa, a hospitalidade dos locais e a facilidade de se locomover tornam a experiência agradável. Além disso, a arquitetura deslumbrante, as paisagens à beira-rio e a vida noturna vibrante proporcionam um ambiente acolhedor e inclusivo, fazendo de Lisboa um destino ideal para mulheres.",
+    "imageUrl": "https://example.com/lisboa.jpg",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "averageCost": "R$280,00",
+      "mainLanguages": "Português, Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Europa"
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "name": "Krakow",
+    "id": "Krakow",
+    "shortDescription": "Cidade polonesa com charme medieval. Exuberante indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Krakow é conhecida por seu centro histórico bem preservado. Desfrute de segurança, arquitetura deslumbrante e uma rica cena cultural na Polônia. É um destino cativante para mulheres viajantes. Com uma atmosfera acolhedora e segura, a cidade oferece uma rica herança cultural, destacada por sua arquitetura histórica e praças encantadoras. A comunidade local é amigável e receptiva, proporcionando uma experiência agradável. A gastronomia local, eventos culturais e atrações como a Catedral de Częstochowa adicionam um toque especial à visita. Rakow, com sua mistura de história e hospitalidade, é um destino atraente e acolhedor para mulheres que desejam explorar a cidade sozinhas.",
+    "imageUrl": "https://example.com/krakow.jpg",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "averageCost": "R$250,00",
+      "mainLanguages": "Polonês, Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Europa"
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "name": "Helsinki",
+    "id": "Helsinki",
+    "shortDescription": "Capital finlandesa com design inovador. Bela indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Helsinki combina segurança, design moderno e natureza exuberante. Explore ilhas, saunas e a cultura finlandesa em uma atmosfera acolhedora. Helsinque, na Finlândia, é um destino excepcional para mulheres viajantes explorarem sozinhas. A cidade oferece uma atmosfera tranquila e segura, refletindo os valores nórdicos de igualdade e inclusão. Com um design arrojado, Helsinque apresenta uma mistura única de modernidade e tradição, evidente em sua arquitetura inovadora e nas saunas tradicionais. Além disso, a cena cultural vibrante, com museus e eventos, torna Helsinque um destino aconchegante e inspirador para mulheres que desejam viajar sozinhas.",
+    "imageUrl": "https://example.com/helsinki.jpg",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+      "averageCost": "R$320,00",
+      "mainLanguages": "Finlandês, Sueco, Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Europa"
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "name": "Bangkok",
+    "id": "Bangkok",
+    "shortDescription": "Metrópole tailandesa com vida noturna vibrante. Ótima indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "description": "Bangkok oferece segurança, templos deslumbrantes, mercados animados e rica gastronomia tailandesa. Explore a diversidade cultural da Tailândia. Um destino empolgante e acolhedor para mulheres que viajam sozinhas. A cidade vibrante oferece uma atmosfera amigável e segura, com uma rica fusão de tradição e modernidade. Os templos deslumbrantes, como o Wat Pho e o Wat Arun, proporcionam uma experiência cultural única. A culinária tailandesa, repleta de sabores exóticos, é um deleite para o paladar. Além disso, a vida noturna animada, mercados fascinantes e a generosidade do povo tailandês tornam Bangkok um destino fascinante e acolhedor para mulheres viajantes independentes.",
+    "imageUrl": "https://example.com/bangkok.jpg",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+      "averageCost": "R$300,00",
+      "mainLanguages": "Tailandês, Inglês",
+      "safetyLevel": 4,
+      "choosenContinent": "Ásia"
     }
   },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
-    }
-  }
 ];
