@@ -160,7 +160,7 @@ export default [
     "id": "Quebec",
     "shortDescription": "Cidade histórica com arquitetura europeia. Está na nossa indicação de melhores destinos para mulheres viajarem com segurança e lazer garantidos.",
     "description": "Quebec oferece segurança, história e arquitetura encantadora. Explore as ruas de paralelepípedos e a cultura francófona. É um destino charmoso e culturalmente enriquecedor para mulheres. Com suas ruas de paralelepípedos, arquitetura europeia e muralhas históricas, a cidade cria uma atmosfera única. O Canadá tem um compromisso com a igualdade de gênero, refletido em sua sociedade diversificada e oportunidades inclusivas. A cultura francófona, os festivais animados e os mercados encantadores proporcionam uma experiência envolvente. Com uma paisagem deslumbrante ao redor, Quebec oferece um ambiente inspirador para mulheres explorarem, apreciarem a diversidade e se sentirem empoderadas em meio a essa cidade encantadora.",
-    "imageUrl": "https://example.com/quebec.jpg",
+    "imageUrl": "https://imgur.com/a/A1Lk3k7",
     "facts": {
       "averageCost": "R$340,00",
       "mainLanguages": "Francês, Inglês",
@@ -173,7 +173,7 @@ export default [
     "id": "Sydney",
     "shortDescription": "Metrópole com praias icônicas. Linda indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
     "description": "Sydney é segura e diversificada. Ideal para mulheres viajantes. Sydney, na Austrália, é um destino eletrizante e acolhedor para mulheres. Com suas icônicas praias, como Bondi e Manly, e o espetáculo da Sydney Opera House, a cidade oferece uma mistura única de natureza e modernidade. A Austrália tem se destacado por promover igualdade de gênero, proporcionando diversas oportunidades. Sydney possui uma vibrante cena cultural, uma culinária diversificada e uma vida noturna animada. Com parques urbanos, como o Royal Botanic Garden, e uma atmosfera descontraída.",
-    "imageUrl": "https://example.com/sydney.jpg",
+    "imageUrl": "https://imgur.com/a/MSqVRsS",
     "facts": {
       "averageCost": "R$370,00",
       "mainLanguages": "Inglês",
@@ -186,7 +186,7 @@ export default [
     "id": "Vancouver",
     "shortDescription": "Cidade costeira com montanhas imponentes. Ótima indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
     "description": "Vancouver oferece segurança, paisagens deslumbrantes e uma mistura cosmopolita. Explore parques, gastronomia e atividades ao ar livre. Vancouver, no Canadá, é um destino inspirador para mulheres. Com sua combinação única de paisagens deslumbrantes e uma atmosfera urbana cosmopolita, a cidade oferece uma experiência cativante. O Canadá é comprometido com a igualdade de gênero, proporcionando oportunidades diversas. Vancouver destaca-se por seus parques exuberantes, como Stanley Park, e pela proximidade com o oceano. A cena artística diversificada, os mercados locais e a culinária internacional enriquecem a experiência cultural. Com uma comunidade acolhedora e um equilíbrio entre natureza e modernidade.",
-    "imageUrl": "https://example.com/vancouver.jpg",
+    "imageUrl": "https://imgur.com/a/gr5A09X",
     "facts": {
       "averageCost": "R$390,00",
       "mainLanguages": "Inglês",
@@ -199,7 +199,7 @@ export default [
     "id": "Kioto",
     "shortDescription": "Antiga capital japonesa com templos magníficos. Excelente indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
     "description": "Kioto é uma cidade segura com uma rica herança cultural, templos magníficos e tradições preservadas. Ideal para mulheres viajantes. Kioto, no Japão, é um destino fascinante e sereno para mulheres. Com suas tradições preservadas, templos magníficos e jardins meticulosamente cuidados, a cidade oferece uma experiência única. O Japão tem avançado em direção à igualdade de gênero, proporcionando oportunidades diversas. Os quimonos tradicionais, festivais coloridos e a culinária refinada criam uma atmosfera encantadora. Com uma paz que permeia seus santuários e a beleza estonteante das cerejeiras em flor, Kioto convida as mulheres a explorarem de tudo.",
-    "imageUrl": "https://example.com/kioto.jpg",
+    "imageUrl": "https://imgur.com/a/CGOxHoA",
     "facts": {
       "averageCost": "R$320,00",
       "mainLanguages": "Japonês",
@@ -212,7 +212,7 @@ export default [
     "id": "Reykjavik",
     "shortDescription": "Capital islandesa com paisagens únicas. Boa indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
     "description": "Reykjavik é uma cidade segura com paisagens surreais, fontes termais e uma atmosfera acolhedora. Atmosfera acolhedora e uma paisagem surreal, a cidade oferece uma experiência marcante. A Islândia é conhecida por sua abordagem progressista à igualdade de gênero, proporcionando oportunidades diversas. Reykjavik destaca-se por sua arquitetura colorida, fontes termais e uma vibrante cena cultural. A proximidade com a natureza, como as auroras boreais e as paisagens geotérmicas, adiciona um toque mágico. Com uma população amigável e uma cultura rica em tradições, Reykjavik é um lugar inspirador para mulheres explorarem, apreciarem a singularidade e se sentirem empoderadas.",
-    "imageUrl": "https://example.com/reykjavik.jpg",
+    "imageUrl": "https://imgur.com/a/1W2xNDq",
     "facts": {
       "averageCost": "R$420,00",
       "mainLanguages": "Islandês, Inglês",
@@ -226,7 +226,7 @@ export default [
     "id": "Barcelona",
     "shortDescription": "Metropolis catalã com arquitetura única. Exclente indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
     "description": "Barcelona oferece segurança, arquitetura modernista e praias animadas. Com sua arquitetura única, como a Sagrada Família e a influência artística de Gaudí, a cidade oferece uma experiência estética rica. A Espanha tem avançado em direção à igualdade de gênero, proporcionando oportunidades diversas. Barcelona é conhecida por suas praias animadas, vida noturna vibrante e uma cena gastronômica deliciosa. A cultura catalã, manifestada em festivais coloridos e mercados movimentados, cria uma atmosfera envolvente. Com uma combinação de tradição e modernidade, Barcelona convida as mulheres a explorarem, celebrarem a diversidade e se sentirem empoderadas nesta cidade vibrante.",
-    "imageUrl": "https://example.com/barcelona.jpg",
+    "imageUrl": "https://imgur.com/a/konYt69",
     "facts": {
       "averageCost": "R$380,00",
       "mainLanguages": "Catalão, Espanhol",
@@ -239,7 +239,7 @@ export default [
     "id": "Santiago",
     "shortDescription": "Segura com diversidade cultural. Está na nossa indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
     "description": "Santiago é uma cidade-estado cosmopolita, conhecida por sua segurança, jardins deslumbrantes e culinária diversificada. Santiago, a capital do Santiago, é um destino dinâmico e inspirador para mulheres. Com uma mistura de paisagens espetaculares, como os Andes, e uma atmosfera urbana movimentada, a cidade oferece uma experiência diversificada. O Santiago tem avançado em direção à igualdade de gênero, proporcionando oportunidades diversas. A rica herança histórica e a gastronomia deliciosa adicionam camadas à experiência. Com uma população acolhedora e uma mistura única de tradição e inovação, Santiago é um lugar inspirador para mulheres explorarem, apreciarem a diversidade e se sentirem empoderadas.",
-    "imageUrl": "https://example.com/singapura.jpg",
+    "imageUrl": "https://imgur.com/a/5QgwMDz",
     "facts": {
       "averageCost": "R$450,00",
       "mainLanguages": "Espanhol",
@@ -252,7 +252,7 @@ export default [
     "id": "Portland",
     "shortDescription": "Cidade verde com cena artística vibrante. Ótima indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
     "description": "Portland é uma cidade segura com parques verdes, uma cena artística vibrante e uma atmosfera descontraída. Ideal para mulheres viajantes.Portland atrai mulheres com sua atmosfera peculiar e progressista. Com uma cena de compras única em bairros como Pearl District, oferece opções sustentáveis e artesanais. Os mercados de alimentos orgânicos e os restaurantes inovadores refletem a ênfase na culinária local e saudável. A cidade é conhecida por sua comunidade artística vibrante e eventos culturais, proporcionando experiências enriquecedoras. A aceitação da diversidade e o foco na sustentabilidade criam um ambiente inclusivo. Cercada por paisagens deslumbrantes e trilhas ao ar livre.",
-    "imageUrl": "https://example.com/portland.jpg",
+    "imageUrl": "https://imgur.com/a/MuFs49o",
     "facts": {
       "averageCost": "R$350,00",
       "mainLanguages": "Inglês",
@@ -265,7 +265,7 @@ export default [
     "id": "Lisboa",
     "shortDescription": "Capital portuguesa com charme histórico. Linda indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
     "description": "Lisboa oferece segurança, ruas de paralelepípedos, arquitetura antiga e culinária deliciosa. Descubra a história e cultura portuguesa em cada esquina. Cativa mulheres viajantes com sua atmosfera acolhedora e segura. A cidade histórica oferece uma riqueza cultural fascinante, com bairros encantadores, como Alfama e Bairro Alto, repletos de charme e autenticidade. A gastronomia deliciosa, a hospitalidade dos locais e a facilidade de se locomover tornam a experiência agradável. Além disso, a arquitetura deslumbrante, as paisagens à beira-rio e a vida noturna vibrante proporcionam um ambiente acolhedor e inclusivo, fazendo de Lisboa um destino ideal para mulheres.",
-    "imageUrl": "https://example.com/lisboa.jpg",
+    "imageUrl": "https://imgur.com/a/1GpyepL",
     "facts": {
       "averageCost": "R$280,00",
       "mainLanguages": "Português, Inglês",
@@ -278,7 +278,7 @@ export default [
     "id": "Krakow",
     "shortDescription": "Cidade polonesa com charme medieval. Exuberante indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
     "description": "Krakow é conhecida por seu centro histórico bem preservado. Desfrute de segurança, arquitetura deslumbrante e uma rica cena cultural na Polônia. É um destino cativante para mulheres viajantes. Com uma atmosfera acolhedora e segura, a cidade oferece uma rica herança cultural, destacada por sua arquitetura histórica e praças encantadoras. A comunidade local é amigável e receptiva, proporcionando uma experiência agradável. A gastronomia local, eventos culturais e atrações como a Catedral de Częstochowa adicionam um toque especial à visita. Rakow, com sua mistura de história e hospitalidade, é um destino atraente e acolhedor para mulheres que desejam explorar a cidade sozinhas.",
-    "imageUrl": "https://example.com/krakow.jpg",
+    "imageUrl": "https://imgur.com/a/P3xzUCU",
     "facts": {
       "averageCost": "R$250,00",
       "mainLanguages": "Polonês, Inglês",
@@ -291,7 +291,7 @@ export default [
     "id": "Helsinki",
     "shortDescription": "Capital finlandesa com design inovador. Bela indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
     "description": "Helsinki combina segurança, design moderno e natureza exuberante. Explore ilhas, saunas e a cultura finlandesa em uma atmosfera acolhedora. Helsinque, na Finlândia, é um destino excepcional para mulheres viajantes explorarem sozinhas. A cidade oferece uma atmosfera tranquila e segura, refletindo os valores nórdicos de igualdade e inclusão. Com um design arrojado, Helsinque apresenta uma mistura única de modernidade e tradição, evidente em sua arquitetura inovadora e nas saunas tradicionais. Além disso, a cena cultural vibrante, com museus e eventos, torna Helsinque um destino aconchegante e inspirador para mulheres que desejam viajar sozinhas.",
-    "imageUrl": "https://example.com/helsinki.jpg",
+    "imageUrl": "https://imgur.com/a/07ZAVQ7",
     "facts": {
       "averageCost": "R$320,00",
       "mainLanguages": "Finlandês, Sueco, Inglês",
@@ -304,7 +304,7 @@ export default [
     "id": "Bangkok",
     "shortDescription": "Metrópole tailandesa com vida noturna vibrante. Ótima indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
     "description": "Bangkok oferece segurança, templos deslumbrantes, mercados animados e rica gastronomia tailandesa. Explore a diversidade cultural da Tailândia. Um destino empolgante e acolhedor para mulheres que viajam sozinhas. A cidade vibrante oferece uma atmosfera amigável e segura, com uma rica fusão de tradição e modernidade. Os templos deslumbrantes, como o Wat Pho e o Wat Arun, proporcionam uma experiência cultural única. A culinária tailandesa, repleta de sabores exóticos, é um deleite para o paladar. Além disso, a vida noturna animada, mercados fascinantes e a generosidade do povo tailandês tornam Bangkok um destino fascinante e acolhedor para mulheres viajantes independentes.",
-    "imageUrl": "https://example.com/bangkok.jpg",
+    "imageUrl": "https://imgur.com/a/nyJlRVj",
     "facts": {
       "averageCost": "R$300,00",
       "mainLanguages": "Tailandês, Inglês",
