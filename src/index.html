@@ -7,34 +7,37 @@
   </head>
   
   <body>
-    <script src="main.js" type="module"></script>
     <header> 
       <h1>Mulheres por aí</h1>
     </header>
+
     <main>
       <h2>Turismo seguro para elas viajarem</h2>
       <section id="filtro">
         <label for="continente">Filtrar por</label>
-        <select data-testid="select-filter" id="continente" name="continente">
-          <option value="Europa">Europa</option>
-          <option value="Asia">Asia</option> <!--acento em Ásia-->
-        </select>
-        <button id="limpar" data-testid="button-clear">Limpar<button>
+          <select data-testid="select-filter" id="continente" name="continente">
+            <option value="Escolha">Escolha um continente</option>
+            <option value="AmericaDoNorte">América do Norte</option>
+            <option value="AmericaDoSul">América do Sul</option>
+            <option value="Asia">Ásia</option>
+            <option value="Europa">Europa</option>
+            <option value="Oceania">Oceania</option>
+          </select>
       </sections>
 
       <section id="ordenar">
-        <label for="nivelSegurnca">Ordenar por</label><!--sobre utilidade de label-->
+        <label for="nivelSeguranca">Ordenar por nível de segurança</label><!--sobre utilidade de label-->
         <select data-testid="select-sort" id="nivelSeguranca" name="nivelSeguranca">
           <option value="asc">1 - 5</option>
           <option value="desc">5 - 1</option>
         </select>
       </section>
+      <button id="limpar" data-testid="button-clear">Limpar<button>
     </main>
-
 
     <footer>
       <p>Desenvolvido por Ana Sou &amp; Erika Alves</p>
     </footer>
-
+    <script src="main.js" type="module"></script>
   </body>
 </html>
