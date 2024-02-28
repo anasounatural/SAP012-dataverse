@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header> 
-      <h1>Mulheres por aí</h1>
-    </header>
 
-    <main>
-      <h2>Turismo seguro para elas viajarem</h2>
-      <section id="filtro">
-        <label for="continente">Filtrar por</label>
-          <select data-testid="select-filter" id="continente" name="continente">
-            <option value="Escolha">Escolha um continente</option>
-            <option value="AmericaDoNorte">América do Norte</option>
-            <option value="AmericaDoSul">América do Sul</option>
-            <option value="Asia">Ásia</option>
-            <option value="Europa">Europa</option>
-            <option value="Oceania">Oceania</option>
-          </select>
-      </section>
-      <section id="ordenar">
-        <label for="nivelSeguranca">Ordenar por nível de segurança</label><!--sobre utilidade de label-->
-        <select data-testid="select-sort" id="nivelSeguranca" name="nivelSeguranca">
-          <option value="asc">1 - 5</option>
-          <option value="desc">5 - 1</option>
-        </select>
-      </section>
+<head>
+  <meta charset="utf-8">
+  <title>Dataverse</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">    <!--Link para importar a fonte "Montserrat" do Google Fonts para ser usada no documento--> 
+</head>
+
+<body>
+  <header>
+    <h1><span id="tituloh1">M</span>ulheres <span id="tituloh1">P</span>or <span id="tituloh1">A</span>í</h1>    <!--Define o cabeçalho principal da página, com texto "Mulheres Por Aí". As letras M, P, e A estão envolvidas por <span> para aplicação de estilos CSS específicos-->
+    <figure>
+      <img class="imagemHeader" src="./imagens/estrela-cadente.png" alt="imagem de uma estrela cadente amarela"/>    <!--Insere uma imagem com a classe "imagemHeader" e o atributo src especificando o caminho para a imagem "estrela-cadente.png". A tag alt adiciona um texto para aplicativos de acessibilidade-->
+    </figure>
+  </header>
+
+  <main>
+    <h2>Turismo seguro para elas viajarem</h2>
+    <section id="botoes">
+      <!-- Para no CSS colocar tudo em uma linhas: Uni as 2 sections em uma unica / inclui botao dentro da section  e adicionei class "botoes "abaixo-->
+      <label for="continente">Filtrar por</label>
+      <select data-testid="select-filter" id="continente" name="continente">
+        <option value="Escolha">Continente</option>
+        <option value="AmericaDoNorte">América do Norte</option>
+        <option value="AmericaDoSul">América do Sul</option>
+        <option value="Asia">Ásia</option>
+        <option value="Europa">Europa</option>
+        <option value="Oceania">Oceania</option>
+      </select>
+
+      <label for="nivelSeguranca">Ordene por nível de segurança</label><!--sobre utilidade de label-->
+      <select data-testid="select-sort" id="nivelSeguranca" name="nivelSeguranca">
+        <option value="asc">1 - 5</option>
+        <option value="desc">5 - 1</option>
+      </select>
+
       <button id="limpar" data-testid="button-clear">Limpar</button>
-        <section id="root">
-        </section>
-    </main>
+    </section>
 
-    <footer>
-      <p>Desenvolvido por Ana Sou &amp; Erika Alves</p>
-    </footer>
-    <script src="main.js" type="module"></script>
-  </body>
+    <section id="root"></section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Ana Sou &amp; Erika Alves</p>
+  </footer>
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>
