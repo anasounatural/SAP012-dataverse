@@ -11,18 +11,20 @@ export const renderItems = (data) => {
   <li class="cardUnitario" itemscope itemtype="${item.id}">    
     <section>
       <figure><img class="imagemCard" itemprop="imageUrl" src="${item.imageUrl}" title="${item.name}"></figure>
-      <h5 class="nomeDoPais"><span itemprop="name">${item.name}</span></h5>
-      <h6 class="curtaDescricao"><span itemprop="shortDescription">${item.shortDescription}</span ></h6 >
-      <p class="seguranca">Nivel de segurança: <span class="valor" itemprop="safetyLevel">${item.facts.safetyLevel}</span></p>
-      <p class="idioma">Idioma: <span class="valor" itemprop="languages">${item.facts.mainLanguages}</span></p>
-      <p class="custo">Custo médio por dia: <span class="valor" itemprop="averageCost">${item.facts.averageCost}</span></p>
-      <p class="continente">Continente: <span class="valor" itemprop="continent">${item.facts.choosenContinent}</span></p>
 
-      <button class="saber-mais">Saber Mais</button> 
-      <div class="detalhada">
-      <p class="descricao"><span itemprop="description">${item.description}</span></p>
-      </div>
-      </section >
+      <h3 class="nomeDoPais"><span itemprop="name">${item.name}</span></h3>
+
+      <h6 class="curtaDescricao"><span itemprop="shortDescription">${item.shortDescription}</span></h6>
+     
+      <button class="saibaMaisBotao">Saiba Mais</button> 
+        <div class="detalhada">
+          <p class="descricao"><span itemprop="description">${item.description}</span></p>
+          <p class="continente">Continente: <span class="valor" itemprop="continent">${item.facts.choosenContinent}</span></p>
+          <p class="idioma">Idioma: <span class="valor" itemprop="languages">${item.facts.mainLanguages}</span></p>
+          <p class="custo">Custo médio por dia: <span class="valor" itemprop="averageCost">${item.facts.averageCost}</span></p>
+          <p class="seguranca">Nivel de segurança: <span class="valor" itemprop="safetyLevel">${item.facts.safetyLevel}</span></p>
+        </div>
+    </section>
   </li>
   `;
   });
