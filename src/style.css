@@ -1,39 +1,32 @@
 * {
+    font-family: 'Montserrat', sans-serif; /* Aplicando a fonte Montserrat */
     padding: 0;
     margin: 0;
-    font-family: 'Times New Roman';
-    box-sizing: border-box;
-}
-
-/*
-@media only screen and (min-width: 600px) {...}
-
-@media only screen and (min-width: 768px) {...}
-*/
-
-body {
-    background-color: #ede8f0;
 }
 
 header {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-    background-color: #A21AEB;
-    height: 90px;
-    justify-content: center; /* Este centaliza linha. align-Itens centraliza colunas*/
-    display: flex;
-    gap: 20px;
-    padding-top: 15px;
+    font-size: 20px; /* Adicionando a unidade de medida 'px' */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: #A21AEB; /* Define a cor de fundo do header */
+    display: flex; /* Torna o header um flex container */
+    align-items: center; /* Alinha os itens verticalmente */
+    color: white; /*muda a cor da fonte do header */
+    height: 90px; /* Defina a altura do header, por exemplo, 100px */
+    gap: 10px;
 }
 
-
-/*Adição de classe no view e no html para mudar separadamente as imagens dos header e card*/
-.imagemHeader {
-    height: 45px;
-    justify-content: center;
+header h1 {
+    font-weight: lighter; /* Definindo a espessura da fonte */
 }
+
+header h1 #tituloh1 {
+    font-weight: bold; /* Definindo a espessura da fonte como negrito */
+}
+
+.imagemHeader { /*Adição de classe no view e no html para mudar separadamente as imagens dos header e card*/
+    height: 60px;
+}
+
 .imagemCard {
     height: 200px;
     justify-content: center;
@@ -41,34 +34,50 @@ header {
 }
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     justify-content: center;
     display: flex;
     color: #A21AEB;
-    padding-top: 15px; 
+    padding-top: 20px;
+    font-size: 25px; 
 }
-
-#filtro {
-    display: flex justify-content:center;
-}
-
 
 .cardUnitario {
     display: flex;
     position: relative;
     justify-content: center;
-    text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
     max-width: 250px;
     min-width: 200px;
     width: 30vh;
-    height: 40vh;
+    height: 50vh;
     margin: 20px;
-    padding: 15px;
-    border: rgb(153, 151, 151) solid 2px;
+    padding: 25px;
+    border: #A21AEB solid 2px;
     overflow: hidden;
+}
 
+.nomeDoPais {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/*.saibaMaisBotao{
+    
+} */
+
+
+
+
+
+
+
+
+
+#filtro {
+    display: flex;
+    justify-content: center;
 }
 
 .cartoes {
@@ -82,8 +91,6 @@ h2 {
     height: 93%;
     overflow-y: auto;
 }
-
-
 
 #botoes {
     display: flex;
