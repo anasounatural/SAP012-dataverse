@@ -7,38 +7,28 @@ export const example = () => {
 export const anotherExample = () => {
   return [];
 };
-/* oiiiiiigit
-const orderdata = (data, ordenacao) 
 
-function ordenacao () {
+
+/*FILTRAGEM */
+export const filterBy = (data, filterBy, value) => {
+  const resultadoFiltragem = data.filter((elemento) => {
+    return elemento.facts[filterBy] === value;
+  })
+  return resultadoFiltragem;
+};
+/*???? Linha 14 criei declaração de elemento */
+/*???? Ver se entendi linha 15 */
+
+/* ORDENAÇÃO
+const orderdata = (data, sort, ordenacao) => { 
+const ordenar () => {
   if (ordenacao === "asc") {
       return data.sort((a, b) => { return a.name.localeCompare(b.name) })
-  } else {
+  } 
+  else {
       return data.sort((a, b) => { return b.name.localeCompare(a.name) })
   }
-};
+}};
+ */
 
 
-(valor,indice,objeto)  (dataset, 0, avaregeCost)
-
-const filterdata = (data,filterby,value) => {
-  const resultfilter = (data.facts[filterby] === value);
-     return resultfilter}
-
-*/ 
-
-/*const filterData =(data, filtragem)
-
-function filtragem (){
-
-
-}
-
-Va no array data pegue o tipo de mainLanguage
-
-
-mainLanguege.
-
-(data, filterBy)
-
-*/ 

@@ -1,12 +1,12 @@
-export const renderItems = (data) => {
+export const renderItems = (listaDestinos) => {
   const ulCartoes = document.createElement('ul'); //cria elemento ul no html
-  ulCartoes.classList.add('cartoes'); //cartoesvermelho vem de onde? sugerir const ulCartoes
+  ulCartoes.classList.add('cartoes'); // adiciona ao Ul uma class = cartoes
 
-  //forEach = atrvés da função "item", determina o que vai ocorrer com cada intem da arry "data"
-  //innerHTML = adiciona à UL "cartoes" o que vem depois do += ou seja, a li
-  //??? abaixo deveria ser cartoa ou cartoes
+  //forEach = atrvés da função "item", determina o que vai ocorrer com cada item da array "data"
+  //innerHTML = adiciona à uLcartoes o que vem depois do += ou seja, a li
   //Na linha 22 acrescentei div para comecar a fazer Modal e separar informações em pop up usando Modal.  
-  data.forEach((item) => {
+  //listaDestinos - não é o dataset é uma declaracao que fiz agora
+  listaDestinos.forEach((item) => {
     ulCartoes.innerHTML += `
   <li class="cardUnitario" itemscope itemtype="${item.id}">    
     <section>
