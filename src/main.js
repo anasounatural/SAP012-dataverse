@@ -1,4 +1,4 @@
-import { filterBy } from './dataFunctions.js';
+import { filterBy, orderdata } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js'; /* Caso especifico: data não precisa de uma declaração, especificamente pq no dataset está como Defaut, ou seja é um "pegue aquilo tudo do Dataset". Poderia ser qquer nome */
 
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /*ORDENAÇÃO*/
 ordenacao.addEventListener('change', (event) => {
-    const result = sort(data, 'safetyLevel', event.target.value) 
+    const result = orderdata(data, 'safetyLevel', event.target.value) 
     listaCartao.innerHTML = '';
     listaCartao.appendChild(renderItems(result));
 });
