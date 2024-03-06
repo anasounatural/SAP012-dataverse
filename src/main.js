@@ -5,10 +5,10 @@ import data from './data/dataset.js'; /* Caso especifico: data não precisa de u
 const filtragem = document.querySelector('#continente'); /* traz botao do html p depois ser adicionado evento de filtragem*/
 const ordenacao = document.querySelector('#nivelSeguranca')
 
-/*RENDERIZAÇÃO*/ 
-const listaCartao = document.querySelector('#root'); 
+/*RENDERIZAÇÃO*/
+const listaCartao = document.querySelector('#root');
 document.addEventListener("DOMContentLoaded", () => {
-    listaCartao.appendChild(renderItems(data)) 
+    listaCartao.appendChild(renderItems(data))
 })
 /* const ListaCartao - Pega do htmL o root e reserva espaço para depois add a linah 11*/
 /*DOMContLoad - quando houver carregamento de conteudo html faz o segue na função */
@@ -17,17 +17,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /*ORDENAÇÃO*/
 ordenacao.addEventListener('change', (event) => {
-    const result = sort(data, 'safetyLevel', event.target.value) 
+    const result = sort(data, 'safetyLevel', event.target.value)
     listaCartao.innerHTML = '';
     listaCartao.appendChild(renderItems(result));
 });
 
+
 /*FILTRAGEM */
 filtragem.addEventListener('change', (event) => {
-    const result = filterBy(data, 'choosenContinent', event.target.value) 
+    const result = filterBy(data, 'choosenContinent', event.target.value)
     listaCartao.innerHTML = '';
     listaCartao.appendChild(renderItems(result));
 });
+
+
+/* Botão limpar da página inicial */
+document.addEventListener("DOMContentLoaded", () => {
+    listaCartao.appendChild(renderItems(data)); // Renderiza os itens iniciais
+
+    // Seleciona o botão "Limpar"
+    const limparButton = document.querySelector('#botaoLimpar');
+
+    // Adiciona um evento de clique ao botão "Limpar"
+    limparButton.addEventListener('click', () => {
+        // Limpa os filtros
+        filtragem.value = "Escolha";
+        ordenacao.value = "asc";
+
+        // Renderiza novamente os itens com os filtros limpos
+        listaCartao.innerHTML = ''; // Limpa a lista existente
+        listaCartao.appendChild(renderItems(data)); // Renderiza todos os itens novamente
+    });
+});
+
+
 /*
 L16 - Change representa que o "sistema" ficará sensível a mudanças, quando ocorrer o event  
 L17 - Event: qdo ocorrer o evento de escolha de opção no select focado(target) no value do html, vai-se no paramentro choosenContent do data e faz aparecer a lista.appendChild...
