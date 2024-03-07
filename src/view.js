@@ -16,13 +16,12 @@ export const renderItems = (listaDestinos) => {
 
       <h6 class="curtaDescricao"><span itemprop="shortDescription">${item.shortDescription}</span></h6>
      
-      <button class="saibaMaisBotao">Saiba Mais</button> 
         <div class="detalhada">
-          <p class="descricao"><span itemprop="description">${item.description}</span></p>
-          <p class="continente">Continente: <span class="valor" itemprop="continent">${item.facts.choosenContinent}</span></p>
-          <p class="idioma">Idioma: <span class="valor" itemprop="languages">${item.facts.mainLanguages}</span></p>
-          <p class="custo">Custo médio por dia: <span class="valor" itemprop="averageCost">${item.facts.averageCost}</span></p>
-          <p class="seguranca">Nivel de segurança: <span class="valor" itemprop="safetyLevel">${item.facts.safetyLevel}</span></p>
+          <p class="descricao"><b>Descrição: </b><span itemprop="description">${item.description}</span></p>
+          <p class="continente"><b>Continente: </b><span class="valor" itemprop="continent">${item.facts.choosenContinent}</span></p>
+          <p class="idioma"><b>Idioma: </b><span class="valor" itemprop="languages">${item.facts.mainLanguages}</span></p>
+          <p class="custo"><b>Custo médio por dia: </b><span class="valor" itemprop="averageCost">${item.facts.averageCost}</span></p>
+          <p class="seguranca"><b>Nivel de segurança: </b><span class="valor" itemprop="safetyLevel">${item.facts.safetyLevel}</span></p>
         </div>
     </section>
   </li>
