@@ -125,4 +125,7 @@ footer {
     height: 30px;
     gap: 10px;
 }
-/*Dora Aventureira*/
+
+select{
+    padding: 1px 5px; 
+}

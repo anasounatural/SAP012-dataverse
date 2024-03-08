@@ -17,17 +17,20 @@ export const renderItems = (listaDestinos) => {
       <h6 class="curtaDescricao"><span itemprop="shortDescription">${item.shortDescription}</span></h6>
      
       <button class="saibaMaisBotao">Saiba Mais</button> 
-        <div class="detalhada">
+        
+    </section>
+  </li>
+  `;
+  });
+  /*
+  <!--div class="detalhada">
           <p class="descricao"><span itemprop="description">${item.description}</span></p>
           <p class="continente">Continente: <span class="valor" itemprop="continent">${item.facts.choosenContinent}</span></p>
           <p class="idioma">Idioma: <span class="valor" itemprop="languages">${item.facts.mainLanguages}</span></p>
           <p class="custo">Custo médio por dia: <span class="valor" itemprop="averageCost">${item.facts.averageCost}</span></p>
           <p class="seguranca">Nivel de segurança: <span class="valor" itemprop="safetyLevel">${item.facts.safetyLevel}</span></p>
-        </div>
-    </section>
-  </li>
-  `;
-  });
+        </div-->
+  */
   console.log('Dentro do renderItens')
   console.log(ulCartoes);
   return ulCartoes; //não é redundante 

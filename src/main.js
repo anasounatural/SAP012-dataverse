@@ -1,32 +1,44 @@
-import { filterBy, orderdata } from './dataFunctions.js';
+import { filterBy, orderdata, mapData } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js'; /* Caso especifico: data não precisa de uma declaração, especificamente pq no dataset está como Defaut, ou seja é um "pegue aquilo tudo do Dataset". Poderia ser qquer nome */
 
 const filtragem = document.querySelector('#continente'); /* traz botao do html p depois ser adicionado evento de filtragem*/
-const ordenacao = document.querySelector('#nivelSeguranca')
+const ordenacao = document.querySelector('#nivelSeguranca');
+let mappedData = mapData(data);
+const reiniciar = document.getElementById('limpar');
+const listaCartao = document.querySelector('#root');
 
-/*RENDERIZAÇÃO*/ 
-const listaCartao = document.querySelector('#root'); 
+
+/*BOTÃO REINICIAR*/
+reiniciar.addEventListener('click', () => {
+  mappedData = mapData(data);
+  listaCartao.innerHTML = "";
+  listaCartao.appendChild(renderItems(mappedData));
+})
+
+
+/*RENDERIZAÇÃO*/
 document.addEventListener("DOMContentLoaded", () => {
-    listaCartao.appendChild(renderItems(data)) 
+  listaCartao.appendChild(renderItems(mappedData))
 })
 /* const ListaCartao - Pega do htmL o root e reserva espaço para depois add a linah 11*/
 /*DOMContLoad - quando houver carregamento de conteudo html faz o segue na função */
-/*???pra mim seria adiconar cartoes ao html logo -->  document.innerHtml.appendChild(renderItems(data) */
+/*???pra mim seria adiconar cartoes ao html logo -->  document.innerHtml.appendChild(renderItems(mappedData) */
 
 
 /*ORDENAÇÃO*/
+
 ordenacao.addEventListener('change', (event) => {
-    const result = orderdata(data, 'safetyLevel', event.target.value) 
-    listaCartao.innerHTML = '';
-    listaCartao.appendChild(renderItems(result));
+  const result = orderdata(mappedData, 'safetyLevel', event.target.value)
+  listaCartao.innerHTML = '';
+  listaCartao.appendChild(renderItems(result));
 });
 
 /*FILTRAGEM */
 filtragem.addEventListener('change', (event) => {
-    const result = filterBy(data, 'choosenContinent', event.target.value) 
-    listaCartao.innerHTML = '';
-    listaCartao.appendChild(renderItems(result));
+  const result = filterBy(mappedData, 'choosenContinent', event.target.value)
+  listaCartao.innerHTML = '';
+  listaCartao.appendChild(renderItems(result));
 });
 /*
 L16 - Change representa que o "sistema" ficará sensível a mudanças, quando ocorrer o event  

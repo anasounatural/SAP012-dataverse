@@ -1,8 +1,9 @@
 # Dataverse
 
 ## Índice
+Projeto Dataverse 
 
-* [1. Preâmbulo](#1-preâmbulo)
+* [1. Sobre o Projeto](#1-preâmbulo)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Considerações gerais](#3-considerações-gerais)
 * [4. Funcionalidades](#4-funcionalidades)
@@ -15,184 +16,33 @@
 
 ***
 
-## 1. Preâmbulo
+## 1. Sobre o projeto
+O projeto dataverse entrega como produto final um site que atende a demanda de mulheres que querem viajar sozinhas em seguraça. Para isto, permite que as usárias visualizem, ordenem, filtrem conjunto de dados sobre países seguros que foram gerados através da tecnologia de prompt e inteligência artificial do CharGPT e CoPilot Bing.
 
-Segundo a [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-90% dos dados existentes hoje foram criados nos últimos dois anos.
-A cada dia, geramos 2,5 milhões de terabytes de dados, um número sem
-precedentes.
+Interfaces de visualização como esta são fundamentais por permitir que exponencial volume de dados que disponóveis atualmente se trasnformem em informações úteis e e fáceis de ler pelas usuárias.
 
-No entanto, os dados por si só têm pouca utilidade. Para que essas grandes
-quantidades de dados se transformem em **informação** fácil de ler para
-as usuárias, precisamos entender e processar esses dados. Uma maneira
-simples de fazer isso é criando _interfaces_ e _visualizações_.
-
-Na imagem a seguir, você poderá ver como, com os dados mostrados à esquerda,
-é possível construir uma interface amigável e compreensível para as usuárias,
-à direita.
-
-![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
-
-## 2. Resumo do projeto
-
-Neste projeto, você **construirá um _site_ para visualizar um
-_conjunto de dados_** que você irá gerar através do [prompting](https://www.itmadrid.com/que-es-un-prompt-en-inteligencia-artificial-ia/).
-Este site será adaptado para atender às necessidades que você
-descobrir que suas usuárias têm.
-
-Além disso, neste projeto, você utilizará ferramentas de
-[inteligência artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
-como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
-entre outras, para gerar um conjunto de dados em um arquivo javascript.
-
-O propósito de gerar os dados dessa maneira é oferecer a oportunidade
-de se envolver com o uso de ferramentas impulsionadas pela inteligência
-artificial, assim como com [técnicas de prompting](https://learnprompting.org/pt/docs/intro).
-
-Como entrega final, você terá um site que permitirá **visualizar os dados,
-filtrá-los, ordená-los e calcular estatísticas**. Por estatísticas,
-referimo-nos a diferentes cálculos que você pode fazer com os dados
-para mostrar informações ainda mais relevantes às usuárias (média,
-valor máximo ou mínimo, etc).
-
-## 3. Considerações gerais
-
-* Este projeto deve ser realizado em duplas.
-* O tempo estimado para concluir o projeto é de 4 a 5 Sprints.
-* O tempo estimado que você deve dedicar à [geração de dados](#geração-dos-dados)
-  é de no máximo dois dias. Além disso, no final do projeto, você deve
-  apresenta um [screenshot do prompt utilizado](#prompt-utilizado).
-* Se perceber que vai demorar mais tempo,
-  deverá usar os dados de exemplo que encontrará 
-  neste caminho: `./src/data/dataset.js`.
-* O projeto será entregue ao enviar seu código para o GitHub (commit/push) e a
-  interface será implantada usando o [GitHub Pages](https://pages.github.com/).
 
 ## 4. Funcionalidades
-
-Como entrega final, você terá um site que permitirá **visualizar os dados,
-filtrá-los, ordená-los e calcular estatísticas**.
-
-Aqui estão definidas com mais detalhes as funcionalidades mínimas que devem ser
-implementadas:
-
-* A aplicação deve permitir que a usuária veja os itens dos dados em uma
-  visualização, que pode ser [tipo cartões](https://brasil.uxdesign.cc/https-brasil-uxdesign-cc-cards-boas-praticas-6ae813acf8cf)
-  ou qualquer outra forma que você decida como a mais apropriada
-  (mas a partir daqui chamamos os itens de "cartões"). **Cada um dos
-  cartões deve estar contido em um elemento `<li>` e estes, por sua vez,
-  contidos em um elemento `<ul>`.**
-
-* O elemento `<ul>` deve ser um filho de um elemento com o atributo _id_
-  com o valor "root". **Este é um passo importante para que sua**
-  **aplicação tenha a estrutura necessária.**
 
 * Os cartões devem destacar os valores das propriedades dos dados que
   interessariam à usuária ver. Por exemplo: nome, data, imagem, etc.
   **Se você filtrar ou ordenar por uma propriedade, o cartão deve mostrar
   o valor dessa propriedade para a usuária.**
+* A aplicação deve calcular e exibir uma estatística dos dados. 
 
-* A interface deve estruturar semanticamente os dados usando o padrão 
-  [microdados](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata).
-  É obrigatório usar pelo menos os atributos 
-  [`itemscope`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope),
-  [`itemtype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype)
-  e o atributo 
-  [`itemprop`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop).
 
-  Por exemplo, os seguintes dados correspondentes a Ada Lovelace:
+HISTÓRIA: Como mulher, a aplicação permite a visualização de dados em estilo de cartões 
+FUNCIONALIDADE: A aplicação oferece à usuária uma visualização dos dados em estilo de cartões, permitindo que ela explore os itens de forma intuitiva.
 
-  ```json
-    {
-      "id": "ada-lovelace",
-      "name": "Ada Lovelace",
-      "shortDescription": "Pioneira da computação, foi a primeira programadora.",
-      "description": "Uma visionária do século XIX...",
-      "imageUrl": "URL_DA_IMAGEM_GERADA",
-      "facts": {
-        "yearOfBirth": 1843,
-        "placeOfBirth": "Londres, Inglaterra",
-        "mainField": "Ciência da Computação",
-      }
-    }
-  ```
 
-  podem ser estruturados semanticamente em HTML como:
-
-  ```html
-  <dl itemscope itemtype="MulheresNaTecnologia">
-    <img src="URL_DA_IMAGEM_GERADA" alt="Ada Lovelace" />
-    <dt>Nome:</dt><dd itemprop="name">Ada Lovelace</dd>
-    <dt>Descrição:</dt><dd itemprop="description">Pioneira da computação, foi a primeira programadora.</dd>
-    <dt>Ano de nascimento:</dt><dd itemprop="yearOfBirth">1843</dd>
-    <dt>Local de nascimento:</dt><dd itemprop="placeOfBirth">Londres, Inglaterra</dd>
-    <dt>Área principal:</dt><dd itemprop="mainField">Ciência da Computação</dd>
-  </dl>
-  ```
-
-* A aplicação deve calcular e exibir uma estatística dos dados. Pode
-  ser uma propriedade calculada de cada item, como uma propriedade adicional
-  (por exemplo, o índice de massa corporal de cada Pokémon) ou estatísticas
-  dos dados completos (por exemplo, total de pessoas nascidas nos anos 80).
-
-* A aplicação deve permitir à usuária filtrar os dados. Você usará
-  um elemento [`<select>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/select)
-  com [um atributo de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
-  `data-testid="selecionar-filtro"`, e um atributo `name` com o nome
-  da propriedade pela qual irá filtrar (por exemplo, se for filtrar por "tipo",
-  o `<select>` terá `name="tipo"`). Os `<option>` deste `<select>` deverão
-  ter no atributo `value` o valor do filtro (por exemplo, se for filtrar
-  por tipo "fogo", seria `<option value="fogo">Fogo</option>`).
-
-* A aplicação deve permitir à usuária ordenar os dados.
-  - Terá pelo menos um controle `<select>` para ordenar.
-  - Se usar apenas um controle `<select>`, deve ter
-    [um atributo de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
-    `data-testid="selecionar-ordenar"` e um atributo `name` com o nome da
-    propriedade pela qual irá ordenar (por exemplo, se for ordenar por
-    "num" seria `name="num"`). Este `<select>` terá dois [`<option>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
-    com `value` `asc` e `desc`, para ordenar de forma ascendente e descendente
-    respectivamente (por exemplo, `<option value="asc">A - Z</option>`).
-  - Uma alternativa é oferecer à usuária uma ordenação mais complexa.
-    Pode implementar a ordenação por várias propriedades. Neste caso, seria com
-    um `<select>` com um atributo de dados `data-testid="selecionar-ordenar"`,
-    e que contenha filhos `<option>` com um `value` com o nome da propriedade
-    pela qual irá ordenar. (Por exemplo, `<option value="nome">Nome</option>`).
-    Além disso, você precisará de outro controle (`<radio>`,`<select>`, etc.)
-    para indicar se a ordenação é ascendente ou descendente. Esse controle
-    secundário terá um atributo `name="ordem-ordenacao"`, e terá valores
-    `asc` e `desc`.
-
-* As funcionalidades de ordenação devem operar sobre os dados filtrados.
-  Por exemplo, se filtrar os Pokémons do tipo fogo e depois os ordenar por
-  nome de forma ascendente, a aplicação deve manter o filtro aplicado e
-  ordenar os Pokémons do tipo fogo.
-
-* A aplicação deve permitir à usuária reiniciar a aplicação, limpando
-  filtros e ordenamentos, com um `<button>` com um atributo de dados
-  `data-testid="botao-limpar"`.
-
-* As operações de filtrar, ordenar, limpar, etc. não devem recarregar
-  a página, mas sim adicionar conteúdo de maneira
-  dinâmica via JavaScript.
-
-* A aplicação será _responsiva_, ou seja, deve ser visualizada sem problemas
-  em diferentes tamanhos de tela: celulares, tablets e desktops.
-
-Os seguintes wireframes são exemplos de uma interface que pode atender a essa
-funcionalidade. Como poderá ver, esses designs seguem a metodologia
-[Mobile First](https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First),
-a mesma que recomendamos utilizar em todos os seus projetos:
-
-Design Mobile:
-
-* [Wireframe mobile 1](https://github.com/Laboratoria/curriculum/assets/123121338/54711bb7-cb05-448e-b677-3cbd9bf13c14)
-* [Wireframe mobile 2](https://github.com/Laboratoria/curriculum/assets/123121338/bf96d3ce-150f-47a2-a605-2efac2e0497b)
-
-Design Desktop:
-
-* [Wireframe desktop 1](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137084-1625aeb8-883c-4b79-86da-5fab34fa5b88.png)
-* [Wireframe desktop 2](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137087-6cef16bc-643a-4d6d-bc1c-e0daaeb21c88.png)
+Cada um dos 24 cartões contém informações sobre livros escritos por autoras mulheres, como capa, título, gênero, número de páginas, preço médio, sinopse e prêmios.
+A aplicação permite à usuária filtrar os dados por gênero e preço.
+A aplicação calcula e exibe uma estatística dos dados.
+Em caso de não houver livros que atendam aos critérios de filtragem da usuária, a aplicação apresentará uma mensagem na tela informando-a sobre essa condição.
+A funcionalidade de ordenação permite que a usuária organize os títulos em ordem alfabética, tanto de forma ascendente quanto descendente.
+A aplicação permite à usuária reiniciar a aplicação, limpando filtros e ordenamentos, com um botão "Mostrar todos".
+As operações de filtrar, ordenar, limpar, não recarregam a página, mas sim adicionam conteúdo de maneira dinâmica via JavaScript.
+A aplicação é responsiva, ou seja, pode ser visualizada sem problemas em diferentes tamanhos de tela: celulares, tablets e desktops.
 
 ## 5. Considerações Técnicas
 
