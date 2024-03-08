@@ -270,7 +270,7 @@ export default [
       "averageCost": "R$280,00",
       "mainLanguages": "Português, Inglês",
       "safetyLevel": 4,
-      "choosenContinent": "Europa"
+      "choosenContinent": "Europa" 
     }
   },
   {

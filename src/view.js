@@ -6,6 +6,7 @@ export const renderItems = (listaDestinos) => {
   //innerHTML = adiciona à uLcartoes o que vem depois do += ou seja, a li
   //Na linha 22 acrescentei div para comecar a fazer Modal e separar informações em pop up usando Modal.  
   //listaDestinos - não é o dataset é uma declaracao que fiz agora
+  //Interpolacao de string = reler
   listaDestinos.forEach((item) => {
     ulCartoes.innerHTML += `
   <li class="cardUnitario" itemscope itemtype="${item.id}">    
@@ -16,7 +17,10 @@ export const renderItems = (listaDestinos) => {
 
       <h6 class="curtaDescricao"><span itemprop="shortDescription">${item.shortDescription}</span></h6>
      
-      <button class="saibaMaisBotao">Saiba Mais</button> 
+      <details>
+        <summary class="saibaMaisBotao">Saiba Mais</summary>
+        <p> ${item.shortDescription} </p>
+      </details>
         
     </section>
   </li>
