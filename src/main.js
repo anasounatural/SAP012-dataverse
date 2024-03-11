@@ -7,7 +7,7 @@ const ordenacao = document.querySelector('#nivelSeguranca');
 let mappedData = mapData(data);
 const reiniciar = document.getElementById('limpar');
 const listaCartao = document.querySelector('#root');
-
+let resultadoFiltragem = [ ]; // [ ] inicia vazio
 
 /*BOTÃO REINICIAR*/
 reiniciar.addEventListener('click', () => {
@@ -29,16 +29,24 @@ document.addEventListener("DOMContentLoaded", () => {
 /*ORDENAÇÃO*/
 
 ordenacao.addEventListener('change', (event) => {
-  const result = orderdata(mappedData, 'safetyLevel', event.target.value)
+  if (resultadoFiltragem.length === 0) {
+    resultadoFiltragem = mappedData
+  } 
+  const result = orderdata(resultadoFiltragem, 'safetyLevel', event.target.value)
   listaCartao.innerHTML = '';
   listaCartao.appendChild(renderItems(result));
+
 });
+
+
 
 /*FILTRAGEM */
 filtragem.addEventListener('change', (event) => {
   const result = filterBy(mappedData, 'choosenContinent', event.target.value)
   listaCartao.innerHTML = '';
   listaCartao.appendChild(renderItems(result));
+  resultadoFiltragem = result 
+  
 });
 /*
 L16 - Change representa que o "sistema" ficará sensível a mudanças, quando ocorrer o event  

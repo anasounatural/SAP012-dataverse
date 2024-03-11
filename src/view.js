@@ -16,6 +16,8 @@ export const renderItems = (listaDestinos) => {
       <h3 class="nomeDoPais"><span itemprop="name">${item.name}</span></h3>
 
       <h6 class="curtaDescricao"><span itemprop="shortDescription">${item.shortDescription}</span></h6>
+
+      <h6 class="nivelSeguranca"><span itemprop="nivelSeguranca">${item.safetyLevel}</span></h6>
      
       <details>
         <summary class="saibaMaisBotao">Saiba Mais</summary>
@@ -35,7 +37,5 @@ export const renderItems = (listaDestinos) => {
           <p class="seguranca">Nivel de segurança: <span class="valor" itemprop="safetyLevel">${item.facts.safetyLevel}</span></p>
         </div-->
   */
-  console.log('Dentro do renderItens')
-  console.log(ulCartoes);
   return ulCartoes; //não é redundante 
 };
