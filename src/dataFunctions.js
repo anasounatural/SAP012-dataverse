@@ -4,11 +4,6 @@ export const example = () => {
   return 'example';
 };
 
-export const anotherExample = () => {
-  return [];
-};
-
-
 
 /*FILTRAGEM */
 export const filterBy = (data, filterBy, value) => {
@@ -16,16 +11,12 @@ export const filterBy = (data, filterBy, value) => {
     const resultadoFiltragem = data.filter((elemento) => {
       return elemento.facts[filterBy] === value;
     })
-
     return resultadoFiltragem;
   }
   else {
     return data
   }
 };
-/*???? Linha 14 criei declaração de elemento */
-/*???? Ver se entendi linha 15 */
-/*finalizar */
 
 
 
@@ -39,15 +30,14 @@ export const orderdata = (data, sort, ordem) => {
   }
 };
 
-/*
-ordem - recebe valor do tardget (main) que corresponde ao campo escolhido no html como ascendente ou descendente 
-- 
-localeCompare é comparacao de texto 
-*/
+//data - conjumto de dados a ser ordenado
+//sort - chave usada para ordenação
+// ordem - diz a direção: recebe valor do target (na main) que corresponde ao campo escolhido no html como ascendente ou descendente 
+//localeCompare é comparacao de texto 
 
 
 
-/* LIMPAR DADOS*/
+/* SINTETIZA INFO DE DATA */
 export const mapData = (data) => {
   return data.map((pais) => {
     return {
@@ -62,3 +52,4 @@ export const mapData = (data) => {
     }
   })
 }
+//Método map pega data e sintetiza

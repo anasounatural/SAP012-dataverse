@@ -2,11 +2,6 @@ export const renderItems = (listaDestinos) => {
   const ulCartoes = document.createElement('ul'); //cria elemento ul no html
   ulCartoes.classList.add('cartoes'); // adiciona ao Ul uma class = cartoes
 
-  //forEach = atrvés da função "item", determina o que vai ocorrer com cada item da array "data"
-  //innerHTML = adiciona à uLcartoes o que vem depois do += ou seja, a li
-  //Na linha 22 acrescentei div para comecar a fazer Modal e separar informações em pop up usando Modal.  
-  //listaDestinos - não é o dataset é uma declaracao que fiz agora
-  //Interpolacao de string = reler
   listaDestinos.forEach((item) => {
     ulCartoes.innerHTML += `
   <li class="cardUnitario" itemscope itemtype="${item.id}">    
@@ -28,14 +23,11 @@ export const renderItems = (listaDestinos) => {
   </li>
   `;
   });
-  /*
-  <!--div class="detalhada">
-          <p class="descricao"><span itemprop="description">${item.description}</span></p>
-          <p class="continente">Continente: <span class="valor" itemprop="continent">${item.facts.choosenContinent}</span></p>
-          <p class="idioma">Idioma: <span class="valor" itemprop="languages">${item.facts.mainLanguages}</span></p>
-          <p class="custo">Custo médio por dia: <span class="valor" itemprop="averageCost">${item.facts.averageCost}</span></p>
-          <p class="seguranca">Nivel de segurança: <span class="valor" itemprop="safetyLevel">${item.facts.safetyLevel}</span></p>
-        </div-->
-  */
-  return ulCartoes; //não é redundante 
+
+  return ulCartoes;
 };
+
+//forEach = atrvés da função "item", determina o que vai ocorrer com cada item da array "data"
+//innerHTML = adiciona à uLcartoes do html o que vem depois do += ou seja, a li
+//itemScope e itemType = usados juntos para indicar que o elemento html tem 1 item
+// Interpolacao de string `${item.name}` é espaço reservado dentro da string, para inserir outra string do item de valor n name .

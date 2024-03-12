@@ -1,25 +1,17 @@
 * {
     font-family: 'Montserrat', sans-serif;
-    /* Aplicando a fonte Montserrat */
     padding: 0;
     margin: 0;
 }
 
 header {
     font-size: 20px;
-    /* Adicionando a unidade de medida 'px' */
     justify-content: center;
-    /* Centraliza o conteúdo horizontalmente */
     background-color: #A21AEB;
-    /* Define a cor de fundo do header */
     display: flex;
-    /* Torna o header um flex container */
     align-items: center;
-    /* Alinha os itens verticalmente */
     color: white;
-    /*muda a cor da fonte do header */
     height: 90px;
-    /* Defina a altura do header, por exemplo, 100px */
     gap: 10px;
 }
 
@@ -55,6 +47,7 @@ h2 {
 
 #filtro {
     display: flex;
+    /* Permite ajustes ao redor e outros elementos nao ocuparçao os espaços*/
     justify-content: center;
 }
 
@@ -79,14 +72,6 @@ h2 {
     padding-bottom: 5px;
     padding-top: 5px;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -126,7 +111,6 @@ footer {
     gap: 10px;
 }
 
-select{
-    padding: 1px 5px; 
+select {
+    padding: 1px 5px;
 }
-
