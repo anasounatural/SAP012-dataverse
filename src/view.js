@@ -20,7 +20,7 @@ export const renderItems = (listaDestinos) => {
           <p class="descricao"><b>Descrição: </b><span itemprop="description">${item.description}</span></p>
           <p class="continente"><b>Continente: </b><span class="valor" itemprop="continent">${item.facts.choosenContinent}</span></p>
           <p class="idioma"><b>Idioma: </b><span class="valor" itemprop="languages">${item.facts.mainLanguages}</span></p>
-          <p class="custo"><b>Custo médio por dia: </b><span class="valor" itemprop="averageCost">${item.facts.averageCost}</span></p>
+          <p class="custo"><b>Custo médio diario: </b><span class="valor" itemprop="averageCost">${item.facts.averageCost}</span></p>
           <p class="seguranca"><b>Nivel de segurança: </b><span class="valor" itemprop="safetyLevel">${item.facts.safetyLevel}</span></p>
         </div>
     </section>
