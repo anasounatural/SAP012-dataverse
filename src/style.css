@@ -20,7 +20,7 @@ header h1 {
     /* Definindo a espessura da fonte */
 }
 
-header h1 #tituloh1 {
+.tituloh1 {
     font-weight: bold;
     /* Definindo a espessura da fonte como negrito */
 }
@@ -41,7 +41,7 @@ h2 {
     justify-content: center;
     display: flex;
     color: #A21AEB;
-    padding-top: 20px;
+    padding-top: 24px;
     font-size: 25px;
 }
 
