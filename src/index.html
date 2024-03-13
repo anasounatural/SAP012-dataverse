@@ -5,41 +5,45 @@
   <meta charset="utf-8">
   <title>Dataverse</title>
   <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <!--Link para importar a fonte "Montserrat" do Google Fonts para ser usada no documento-->
+  <!--Link importa fonte "Montserrat" do Google Fonts -->
 </head>
 
 <body>
   <header>
     <h1><span class="tituloh1">M</span>ulheres <span class="tituloh1">P</span>or <span class="tituloh1">A</span>í</h1>
-    <!--Define o cabeçalho principal da página, com texto "Mulheres Por Aí". As letras M, P, e A estão envolvidas por <span> para aplicação de estilos CSS específicos-->
+    <!--Letras M, P, e A estão envolvidas por <span> para aplicação de estilos CSS específicos-->
     <figure>
       <img class="imagemHeader" src="./imagens/estrela-cadente.png" alt="imagem de uma estrela cadente amarela" />
-      <!--Insere uma imagem com a classe "imagemHeader" e o atributo src especificando o caminho para a imagem "estrela-cadente.png". A tag alt adiciona um texto para aplicativos de acessibilidade-->
+      <!--A tag alt adiciona um texto para aplicativos de acessibilidade-->
     </figure>
   </header>
 
   <main>
     <h2>Turismo seguro para elas viajarem</h2>
     <section id="botoes">
-      <!-- Para no CSS colocar tudo em uma linhas: Uni as 2 sections em uma unica / inclui botao dentro da section  e adicionei class "botoes "abaixo-->
+      <div class="filtro-container">
+        <label for="continente">Filtrar por continente</label>
+        <select data-testid="select-filter" id="continente" name="continente">
+          <option value="Continente"></option>
+          <option value="América do Norte">América do Norte</option>
+          <option value="América do Sul">América do Sul</option>
+          <option value="Ásia">Ásia</option>
+          <option value="Europa">Europa</option>
+          <option value="Oceania">Oceania</option>
+        </select>
+      </div>
 
-      <label for="continente">Filtrar por continente</label>
-      <select data-testid="select-filter" id="continente" name="continente">
-        <option value="América do Norte">América do Norte</option>
-        <option value="América do Sul">América do Sul</option>
-        <option value="Ásia">Ásia</option>
-        <option value="Europa">Europa</option>
-        <option value="Oceania">Oceania</option>
-      </select>
+      <div class="filtro-container">
+        <label for="nivelSeguranca">Ordene por nível de segurança</label>
+        <select data-testid="select-sort" id="nivelSeguranca" name="nivelSeguranca">
+          <option value="asc">1 - 5</option>
+          <option value="desc">5 - 1</option>
+        </select>
+      </div>
 
-      <label for="nivelSeguranca">Ordenar por nível de segurança</label><!--sobre utilidade de label-->
-      <select data-testid="select-sort" id="nivelSeguranca" name="nivelSeguranca">
-        <option value="asc">1 - 5</option>
-        <option value="desc">5 - 1</option>
-      </select>
-
-      <button id="botaoLimpar" data-testid="button-clear">Limpar</button>
+      <button id="limpar" data-testid="button-clear">Limpar</button>
     </section>
 
     <section id="root"></section>
