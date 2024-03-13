@@ -1,7 +1,25 @@
 import { filterBy, orderdata, mapData } from './dataFunctions.js';
+import { filterBy, orderdata, mapData } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js'; /* Caso especifico: data não precisa de uma declaração, especificamente pq no dataset está como Defaut (pega aquilo tudo do Dataset. Poderia ser qquer nome */
+import data from './data/dataset.js'; /* Caso especifico: data não precisa de uma declaração, especificamente pq no dataset está como Defaut (pega aquilo tudo do Dataset. Poderia ser qquer nome */
 
+const filtragem = document.querySelector('#continente'); /* Traz botao do html. Nesse espaço chamado continente,será adicionado evento de filtragem.*/
+const ordenacao = document.querySelector('#nivelSeguranca');
+const reiniciar = document.getElementById('limpar');
+const listaCartao = document.querySelector('#root'); //Pega do htmL o root e reserva espaço para depois add resultado das funções
+let resultadoFiltragem = [ ]; // [ ] inicia vazio  ??????????????????????????????????????????
+let mappedData = mapData(data); // ????????????????????????????????????????? Declara data (com dados sintetizados pelo método map)
+
+
+/*BOTÃO REINICIAR*/
+reiniciar.addEventListener('click', () => {
+  mappedData = mapData(data);
+  listaCartao.innerHTML = "";
+  listaCartao.appendChild(renderItems(mappedData));
+})
+//Pq tem que incluir a linha 11???????????????????????????? 
+//A linha 15 limpa a área,  appendChild inclui os cards 
 const filtragem = document.querySelector('#continente'); /* Traz botao do html. Nesse espaço chamado continente,será adicionado evento de filtragem.*/
 const ordenacao = document.querySelector('#nivelSeguranca');
 const reiniciar = document.getElementById('limpar');
@@ -23,6 +41,7 @@ reiniciar.addEventListener('click', () => {
 document.addEventListener("DOMContentLoaded", () => {
   listaCartao.appendChild(renderItems(mappedData))
 })
+//DOMContLoad - quando houver carregamento de conteudo html, ativa função e insere no listaCartao 
 //DOMContLoad - quando houver carregamento de conteudo html, ativa função e insere no listaCartao 
 
 
