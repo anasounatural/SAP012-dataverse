@@ -10,11 +10,12 @@ export const renderItems = (listaDestinos) => {
 
       <h3 class="nomeDoPais"><span itemprop="name">${item.name}</span></h3>
 
-      <h6 class="curtaDescricao"><span itemprop="shortDescription">${item.shortDescription}</span></h6>
+      <h6 class="curtaDescricao"> <b>Descrição:</b> <span itemprop="shortDescription">${item.shortDescription}</span></h6>
 
       <details>
         <summary class="saibaMaisBotao">Saiba Mais</summary>
         <p> ${item.shortDescription} </p>
+        <h6 class="nivelSeguranca"><span itemprop="safetyLevel">${item.safetyLevel}</span></h6>
       </details>
         
     </section>
@@ -24,11 +25,6 @@ export const renderItems = (listaDestinos) => {
 
   return ulCartoes;
 };
-
-//forEach = atrvés da função "item", determina o que vai ocorrer com cada item da array "data"
-//innerHTML = adiciona à uLcartoes do html o que vem depois do += ou seja, a li
-//itemScope e itemType = usados juntos para indicar que o elemento html tem 1 item
-// Interpolacao de string `${item.name}` é espaço reservado dentro da string, para inserir outra string do item de valor n name .
 
 //forEach = atrvés da função "item", determina o que vai ocorrer com cada item da array "data"
 //innerHTML = adiciona à uLcartoes do html o que vem depois do += ou seja, a li
