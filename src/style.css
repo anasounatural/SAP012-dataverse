@@ -16,17 +16,14 @@ header {
 }
 
 header h1 {
-    font-weight: lighter;
-    /* Definindo a espessura da fonte */
+    font-weight: lighter;    /* Definindo a espessura da fonte */
 }
 
-.tituloh1 {
-    font-weight: bold;
-    /* Definindo a espessura da fonte como negrito */
+#tituloh1 {
+    font-weight: bold;    /* Definindo a espessura da fonte como negrito */
 }
 
-.imagemHeader {
-    /*Adição de classe no view e no html para mudar separadamente as imagens dos header e card*/
+.imagemHeader {    /*Adição de classe no view e no html para mudar separadamente as imagens dos header e card*/
     height: 60px;
 }
 
@@ -46,8 +43,7 @@ h2 {
 }
 
 #filtro {
-    display: flex;
-    /* Permite ajustes ao redor e outros elementos nao ocuparçao os espaços*/
+    display: flex;    /* Permite ajustes ao redor e outros elementos nao ocuparçao os espaços*/
     justify-content: center;
 }
 
@@ -68,12 +64,9 @@ h2 {
 
 .nomeDoPais {
     text-align: center;
-    /* Centraliza o texto horizontalmente */
     padding-bottom: 5px;
     padding-top: 5px;
 }
-
-
 
 #filtro {
     display: flex;
@@ -96,8 +89,14 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+select {
+    padding: 1px 5px;
+    margin-top: 4px;    /* Adicionar espaço entre o seletor e os outros elementos */
+    font-size: 11px;
 }
 
 footer {
@@ -107,10 +106,182 @@ footer {
     display: flex;
     align-items: center;
     color: white;
-    height: 30px;
+    height: 36px;
     gap: 10px;
 }
 
-select {
-    padding: 1px 5px;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 1px) and (max-width: 600px) {
+    header {
+        font-size: 12px;
+        height: 60px;
+    }
+
+    .imagemHeader {
+        height: 48px;
+    }
+
+    h2 {
+        padding-top: 14px;
+        font-size: 18px;
+    }
+
+    .filtro-container {
+        display: flex;
+        flex-direction: column;        /* Dispor os elementos verticalmente */
+        align-items: center;        /* Alinhar os elementos horizontalmente */
+        margin-right: 2px;        /* Ajustar margem direita */
+    }
+
+    .filtro-container label {
+        margin-bottom: 8px;        /* Adicionar espaço entre o texto e o seletor */
+    }
+
+    #limpar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+        width: 56px;
+    }
+
+    label[for="nivelSeguranca"] {
+        font-size: 12px;
+    }
+
+    label[for="continente"] {
+        font-size: 12px;
+    }
+
+    .cardUnitario {
+        height: 72vh;
+        padding: 16px;
+        margin: 8px;
+        width: 30vh;
+        line-height: 1.5;
+    }
+
+    .nomeDoPais {
+        font-size: 15px;
+    }
+
+    .curtaDescricao {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .saibaMaisBotao {
+        font-size: 12px;
+        padding-top: 6px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    h2 {
+        padding-top: 12px;
+    }
+
+    label[for="nivelSeguranca"] {
+        font-size: 14px;
+    }
+
+    label[for="continente"] {
+        font-size: 14px;
+    }
+
+    .cardUnitario {
+        height: 72vh;
+        padding: 16px;
+        margin: 8px;
+        width: 30vh;
+        line-height: 1.5;
+    }
+
+    .nomeDoPais {
+        font-size: 17px;
+    }
+
+    .curtaDescricao {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .saibaMaisBotao {
+        font-size: 12px;
+        padding-top: 6px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .curtaDescricao {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .saibaMaisBotao {
+        font-size: 13px;
+        padding-top: 6px;
+    }
+
+    .cardUnitario {
+        height: 65vh;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .cardUnitario {
+        height: 64vh;
+    }
+
+    label[for="nivelSeguranca"] {
+        font-size: 16px;
+    }
+
+    label[for="continente"] {
+        font-size: 16px;
+    }
+
+    .nomeDoPais {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .curtaDescricao {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .saibaMaisBotao {
+        font-size: 14px;
+        padding-top: 6px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .cardUnitario {
+        height: 64vh;
+    }
+
+    .nomeDoPais {
+        font-size: 19px;
+        padding-top: 10px;
+    }
+
+    .curtaDescricao {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .saibaMaisBotao {
+        font-size: 14px;
+        padding-top: 6px;
+    }
 }

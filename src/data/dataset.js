@@ -2,7 +2,7 @@ export default [
   {
     "name": "Tóquio",
     "id": "Toquio",
-    "shortDescription": "Cidade segura.Está na nossa indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
+    "shortDescription": "Cidade segura. Está na nossa indicação de melhores destinos para mulheres viajarem sozinhas com segurança e lazer garantidos.",
     "description": "Tóquio, cidade que  encanta mulheres por sua fusão única de tradição e modernidade.  A cultura japonesa valoriza a cortesia e a segurança, proporcionando um ambiente acolhedor. A culinária diversificada, desde sushi refinado até doces elaborados, cativa paladares. A capital também exibe jardins serenos, templos históricos e festivais vibrantes, proporcionando uma rica imersão cultural. A eficiência do transporte público e a baixa taxa de criminalidade tornam Tóquio um destino seguro e fácil de explorar, enriquecendo a experiência de viagem para mulheres.",
     "imageUrl": "https://i.imgur.com/4TUTEnx.jpg",
     "facts": {
