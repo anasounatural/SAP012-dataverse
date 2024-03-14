@@ -8,7 +8,6 @@ console.log(mappedData);
 
 describe('orderdata', () => {
   const testeOrdenacao = orderdata(fakeData, 'safetyLevel','asc');
-  console.log(testeOrdenacao)
   expect(testeOrdenacao[0].facts.safetyLevel).toBe(4);
   expect(testeOrdenacao[1].facts.safetyLevel).toBe(4);
   expect(testeOrdenacao[2].facts.safetyLevel).toBe(4);
@@ -18,7 +17,6 @@ describe('orderdata', () => {
 
 describe('orderdata', () => {
   const testeOrdenacao = orderdata(fakeData, 'safetyLevel','des');
-  console.log(testeOrdenacao)
   expect(testeOrdenacao[0].facts.safetyLevel).toBe(5);
   expect(testeOrdenacao[1].facts.safetyLevel).toBe(5);
   expect(testeOrdenacao[2].facts.safetyLevel).toBe(4);
@@ -28,9 +26,7 @@ describe('orderdata', () => {
 
 /*TESTE DE FILTRAGEM*/
 describe('Teste do filterBy', () => {
-
   it('Deve retornar 2 elementos correspondentes ao continente Ásia', () => {
-
     const testeFiltro = filterBy(mappedData, 'choosenContinent', 'Ásia')
     expect(testeFiltro.length).toEqual(2);
   });
@@ -43,11 +39,4 @@ No arquivo de teste data.js, copie apenas 4 elemetos do array data, garatirno pe
 3- expect - o que espero que a função retorne. No caso 2 cards
 */
 
-/*describe('anotherExample', () => {
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
-});
-
-*/
