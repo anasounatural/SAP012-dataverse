@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Dataverse</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <!--Link importa fonte "Montserrat" do Google Fonts -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <h1><span id="tituloh1">M</span>ulheres <span id="tituloh1">P</span>or <span id="tituloh1">A</span>í</h1>
+    <!--Letras M, P, e A estão envolvidas por <span> para aplicação de estilos CSS específicos-->
+    <figure>
+      <img class="imagemHeader" src="./imagens/estrela-cadente.png" alt="imagem de uma estrela cadente amarela" />
+      <!--A tag alt adiciona um texto para aplicativos de acessibilidade-->
+    </figure>
+  </header>
+
+  <main>
+    <h2>Turismo seguro para elas viajarem</h2>
+    <section id="botoes">
+      <div class="filtro-container">    <!-- Div criada para ajuste do css mobile small-->
+        <label for="continente">Filtre por continente</label> <!-- Uso de Label e For -->
+        <select data-testid="select-filter" id="continente" name="continente">
+          <option value="Continente"></option>
+          <option value="América do Norte">América do Norte</option>
+          <option value="América do Sul">América do Sul</option>
+          <option value="Ásia">Ásia</option>
+          <option value="Europa">Europa</option>
+          <option value="Oceania">Oceania</option>
+        </select>
+      </div>
+
+      <div class="filtro-container">    <!-- Div criada para ajuste do css mobile small-->
+        <label for="nivelSeguranca">Ordene por nível de segurança</label>
+        <select data-testid="select-sort" id="nivelSeguranca" name="nivelSeguranca">
+          <option value="asc">1 - 5</option>
+          <option value="desc">5 - 1</option>
+        </select>
+      </div>
+
+      <button id="limpar" data-testid="button-clear">Limpar</button>
+    </section>
+
+    <section id="root"></section>
+    <!-- Veio do ReadMe / Abre espaço no html. Depois no main será chamado pra add os cards-->
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Ana Sou &amp; Erika Alves</p>
+  </footer>
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>
