@@ -11,7 +11,7 @@ export const renderItems = (listaDestinos) => {
       <h3 class="nomeDoPais"><span itemprop="name">${item.name}</span></h3>
 
       <h6 class="curtaDescricao"> <b>Descrição:</b> <span itemprop="shortDescription">${item.shortDescription}</span></h6>
-      <h6 class="nivelSeguranca"><span itemprop="nivelSeguranca">${item.safetyLevel}</span></h6>
+      <h6 class="nivelSeguranca">Nível de Segurança: <span itemprop="nivelSeguranca">${item.facts.safetyLevel}</span></h6>
       <details>
         <summary class="saibaMaisBotao">Saiba Mais</summary>
         <p> ${item.shortDescription} </p>
