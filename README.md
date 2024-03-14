@@ -1,6 +1,6 @@
 # Dataverse
 
-Colocar Head do Projeto - pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Colocar Head do Projeto - pppppppppppppp
 
 ## Índice
 
@@ -43,13 +43,13 @@ Para além da aprendizagem técnica, as desenvolvedoras buscaram um temática ba
 
 
 # 4. Protótipo e Gif 
-PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPPPPPPP
 
 # 5.Prompt Usado
 
 ChatGPT e Copilot Bing
 
-PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+PPPPPPPPPPPPPPPPPPPPPPPP
 
 
 
@@ -100,4 +100,4 @@ PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
 
 ## 10. Conclusões 
 
-O projeto dataverse foi um ótimo passo para desenvolver habilidades essenciais para uma Desenvolvedora Front End Jr. Para além das tech skills, fomos a todo tempo conidadas a reconhecer e consolidar as life skills dentro de um trabalho em dupla, em sistema de desenvolvimento ágil, onde vada vez mais somos incetivadas a aprende a aprender, aprender a: perguntar, pesquisar, compreender erros, manter a calma, se comunicar, planejar com flexibilidade e sempre continuar. 
+O projeto dataverse foi um ótimo passo para desenvolver habilidades essenciais para uma Desenvolvedora Front End Jr. Para além das tech skills, fomos a todo tempo convidadas a reconhecer e consolidar as life skills dentro de um trabalho em dupla, em sistema de desenvolvimento ágil, onde cada vez mais somos incetivadas a aprende a aprender, aprender a: perguntar, pesquisar, compreender erros, manter a calma, se comunicar, planejar com flexibilidade e sempre continuar. 

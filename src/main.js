@@ -6,8 +6,8 @@ const filtragem = document.querySelector('#continente'); /* Traz botao do html. 
 const ordenacao = document.querySelector('#nivelSeguranca');
 const reiniciar = document.getElementById('limpar');
 const listaCartao = document.querySelector('#root'); //Pega do htmL o root e reserva espaço para depois add resultado das funções
-let resultadoFiltragem = [ ]; // [ ] inicia vazio  ??????????????????????????????????????????
-let mappedData = mapData(data); // ????????????????????????????????????????? Declara data (com dados sintetizados pelo método map)
+let resultadoFiltragem = [ ]; // [ ] inicia vazio  
+let mappedData = mapData(data); //  Declara data (com dados sintetizados pelo método map)
 
 
 /*BOTÃO REINICIAR*/
@@ -16,8 +16,8 @@ reiniciar.addEventListener('click', () => {
   listaCartao.innerHTML = "";
   listaCartao.appendChild(renderItems(mappedData));
 })
-//Pq tem que incluir a linha 11???????????????????????????? 
-//A linha 15 limpa a área,  appendChild inclui os cards 
+//A linha 15 limpa a área,  appendChild inclui os cards baseados no mappedData
+
 
 /*RENDERIZAÇÃO*/
 document.addEventListener("DOMContentLoaded", () => {
@@ -28,11 +28,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /*FILTRAGEM */
 filtragem.addEventListener('change', (event) => {
-  let result = filterBy(mappedData, 'choosenContinent', event.target.value) //filtra dados de mappedData, a usando a chave choosenContinent, quando no html for acionado (target) o value 
+  let result = filterBy(mappedData, 'choosenContinent', event.target.value) 
   listaCartao.innerHTML = '';
-  listaCartao.appendChild(renderItems(result));
+  listaCartao.appendChild(renderItems(result)); 
   resultadoFiltragem = result 
 });
+//renderItems retorna uma representação do html do result. InnerHTml traz modificação pro html a partir da listaCartão associado ao root.  
+//let result - filtra dados de mappedData, a usando a chave choosenContinent, quando no html for acionado (target) o value.
+//listaCartao.appendChild - Ao espaço criado no ListaCartão do htmL, adicione apenas os cartões (renderItens) solicitados na let Result.
 
 /*ORDENAÇÃO*/
 ordenacao.addEventListener('change', (event) => {
@@ -43,9 +46,7 @@ ordenacao.addEventListener('change', (event) => {
   listaCartao.innerHTML = '';
   listaCartao.appendChild(renderItems(result));
 });
-//Usa-se resultadoFiltragem ao invés de data para associar ordenação e filtragem, para que ordene a partir dos dados filtrados e não a partir de todos os dados. Apenas aparece toda a lista se o resultado da filtragem for 0
-//L16 - Change representa que o "sistema" ficará sensível a mudanças, quando ocorrer o event  
-//L17 - Event: qdo ocorrer o evento de escolha de opção no select focado(target) no value do html, vai-se no paramentro choosenContent do data e faz aparecer a lista.appendChild...
-//L18 -  Ao espaço criado no ListaCartão do htmL, adicione apenas os cartões (renderItens) solicitados na const Result 
-//renderItems retorna uma representação do html do result. InnerHTml traz modificação pro html a partir da root.  
+//Usa-se resultadoFiltragem ao invés de data para associar ordenação e filtragem, para que ordene a partir dos dados filtrados e não a partir de todos os dados totais. Apenas aparece toda a lista se o resultado da filtragem for 0
+//Change: "sistema" ficará sensível a mudanças, quando ocorrer o event  
+//Event: qdo ocorrer o evento de escolha de opção no select focado(target) no value do html, vai-se no paramentro choosenContent do data e faz aparecer a lista.appendChild...
 
