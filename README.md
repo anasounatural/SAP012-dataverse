@@ -43,7 +43,7 @@ Para além da aprendizagem técnica, as desenvolvedoras buscaram um temática ba
 
 
 # 4. Protótipo e Gif 
-PPPPPPPPPPPPPPPPPPPPP
+![prototipo-do-projeto](https://i.imgur.com/19Z6qW4.png)
 
 # 5.Prompt Usado
 
