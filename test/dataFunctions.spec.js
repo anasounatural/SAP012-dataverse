@@ -1,6 +1,6 @@
 import { filterBy, orderdata, mapData } from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
-let mappedData = mapData(fakeData);
+const mappedData = mapData(fakeData);
 console.log(mappedData);
 
 

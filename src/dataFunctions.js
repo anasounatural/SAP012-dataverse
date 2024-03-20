@@ -7,7 +7,7 @@ export const example = () => {
 
 /*FILTRAGEM */
 export const filterBy = (data, filterBy, value) => {
-  if (value !== 'Continente') {
+  if (value !== 'Todos') {
     const resultadoFiltragem = data.filter((elemento) => {
       return elemento.facts[filterBy] === value;
     })

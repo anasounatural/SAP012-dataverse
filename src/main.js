@@ -10,7 +10,7 @@ let resultadoFiltragem = [ ]; // [ ] inicia vazio
 let mappedData = mapData(data); //  Declara data (com dados sintetizados pelo método map)
 
 
-/*BOTÃO REINICIAR*/
+/*BOTÃO LIMPAR*/
 reiniciar.addEventListener('click', () => {
   mappedData = mapData(data);
   listaCartao.innerHTML = "";
